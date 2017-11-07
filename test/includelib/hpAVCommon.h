@@ -1,0 +1,85 @@
+/******************************************************************************
+ *
+ * Copyright (c) 2010-2012 TP-Link Technologies CO.,LTD.
+ * All rights reserved.
+ *
+ * Name		: hpAVCommon.h
+ * Rev		: 1.0	
+ * Abstract	: Common defines for HomePlug AV module
+ *
+ * Author	: CHEN BIN, bin-ge@tp-link.com.cn
+ * Created	: 2010-10-4	
+ *
+ * History	:
+ * 
+ *
+ ******************************************************************************/
+
+#ifndef __HP_AV_COMMON_H__
+#define __HP_AV_COMMON_H__
+#include "hpStructDef.h"
+
+#ifdef HPAV_DBG_PRINT
+#define HPAV_DEBUG()	printf("\n ** %s_%d ** \n", __FUNCTION__, __LINE__)
+#define HPAV_DEBUG_OUTPUT	printf
+#else
+#define HPAV_DEBUG()
+#define HPAV_DEBUG_OUTPUT
+#endif
+
+#define HPAV_PHY_UNIT			2
+#define MAX_NTWNAME_LEN 	24
+
+#define ERROR		-1
+#define OK			0
+
+/* Swap least-significant and most-significant in a UINT16 type. */
+#if 1
+#if (_BYTE_ORDER == _LITTLE_ENDIAN)
+	#define hpAVSwap16(x) (x) 
+	#define hpAVSwap32(x) (x) 
+
+	/*用于数据包checksum32*/
+	#define tntohl(x) (x)
+	#define tntohs(x) (x)
+	#define thtonl(x) (x)
+	#define thtons(x) (x) 
+
+#else
+	#define hpAVSwap16(x) (((x & 0x00FF) << 8) | ((x & 0xFF00) >> 8)) 
+	#define hpAVSwap32(x) (((x & 0xFF000000) >> 24) |	\
+							((x & 0x00FF0000) >> 8) |	\
+							((x & 0x0000FF00) << 8) |	\
+							((x & 0x000000FF) << 24))
+
+	/*用于数据包checksum32*/
+	#define tntohl(x) ((x << 8) | (x >> 8))
+	#define tntohs(x) ((x << 8) | (x >> 8))
+	#define thtonl(x) ((x << 8) | (x >> 8))
+	#define thtons(x) ((x << 8) | (x >> 8))  
+#endif
+#endif
+
+UINT32 GenerateCheckSum(UINT32 *pBufferPtr, UINT32 aLength_Wds);
+UINT32 checksum32_QCA (register const void * memory, register INT32 extent, register UINT32 checksum);
+UINT8* hp_nmkGenericSHA256(UINT8 *pNtwPsw);
+UINT8* hp_dakGenericSHA256(UINT8 *pDevPsw);
+BOOL hp_nmkGenericSHA256_r(UINT8 *pNtwPsw, UINT8 *hashValue);
+BOOL hp_dakGenericSHA256_r(UINT8 *pDevPsw, UINT8 *hashValue);
+
+int hpMac2Str(UINT8 *mac, UINT8 *str, BOOL bColon);
+int hpMacStr2Eth(UINT8 *buffer, UINT8 *ether);
+BOOL hpSprintNmk2Str(UINT8 *pBuf, UINT8 *pNmk);
+BOOL hpIsNewMac2Pwd(UINT8* hfid);
+BOOL hpMac2Pwd(UINT8* mac, UINT8* pwd, BOOL isNew);
+void HPAVKeyNID (UINT8 *NID, const UINT8 *NMK, UINT8 level);
+BOOL hp_Mac2Pwd(UINT8 *pMac, UINT8 *pPwd, BOOL isNew);
+BOOL hpGetDakFromPwd(UINT8 *pwd, UINT8 *dak);
+BOOL hpGetDakFromMac(UINT8 *mac, UINT8 *hfid, UINT8 *dak);
+BOOL hpGetNmkFromNtw(UINT8 *ntw, UINT8 *nmk);
+BOOL hpGetNtwNameFrUc(char *ntwName, int len);
+BOOL hpCheckValidMac(UINT8 *mac);
+//char *hpTransSpecialWords(char *str);
+
+
+#endif  /* __HP_AV_COMMON_H__ */

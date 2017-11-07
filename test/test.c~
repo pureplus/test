@@ -1,0 +1,43 @@
+#include "test.h"
+#include "stdio.h"
+#include <dlfcn.h>
+#include "plcApi.h"
+#include "hpStructDef.h"
+#include "hpAVLib.h"
+#define DLL_FILE_NAME "libplcapi.so"
+
+int main(int argc, char**argv)
+{
+  	static PLC_DEV_BASE test_base;
+	static PLC_DEV_INFO devInfo;
+    void *handle;
+    int (*func)(char*);
+
+    
+	printf("hello\n");
+	char *a  = "eth0";
+	int ret =0 ;
+    static char passwd[30];
+//	handle = dlopen(DLL_FILE_NAME, RTLD_NOW);
+  //  if (handle == NULL)
+    //{
+   // fprintf(stderr, "Failed to open libaray %s error:%s\n", DLL_FILE_NAME, dlerror());
+   // return -1;
+   // }
+    // ret = func(a);
+   // func = dlsym(handle, "plcNicInit");
+    ret = plcNicInit(a);
+    ret = plcScanDev(NULL, &test_base);
+    ret = plcGetPassword(&test_base, passwd);
+    //ret = plcStartPair(&test_base);
+    //ret = plcSetMac(&test_base, PLC_PARAM *param, PLC_SET_MAC_INFO *info);
+    ret = plcGetDevInfo(test_base, &devInfo);
+    
+    printf("%d\n", ret);
+    printf("PLC_DEV_TYPE %d\n",test_base.type);
+    printf("id %d\n", test_base.devId);
+    printf("mac:"MAC_FMT"\n", NIPQUAD_mac(test_base.mac));
+    printf("passwd is %s\n", passwd);
+ 	printf("ver is %s\n", devInfo.swVer);
+
+}

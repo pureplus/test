@@ -1,0 +1,1147 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APCM_APSTA_INFO_CNF_ST	hpStructDef.h	/^}APCM_APSTA_INFO_CNF_ST;$/;"	t	typeref:struct:__anon24
+APCM_AUTHORIZE_REQ_ST	hpStructDef.h	/^}APCM_AUTHORIZE_REQ_ST;$/;"	t	typeref:struct:__anon17
+APCM_NW_STATS_CNF_ST	hpStructDef.h	/^}APCM_NW_STATS_CNF_ST;$/;"	t	typeref:struct:__anon22
+APCM_NW_STATS_REQ_ST	hpStructDef.h	/^}APCM_NW_STATS_REQ_ST;$/;"	t	typeref:struct:__anon28
+APCM_SET_KEY_REQ_ST	hpStructDef.h	/^}APCM_SET_KEY_REQ_ST;$/;"	t	typeref:struct:__anon27
+APFW_GET_DEBUG_ST	hpStructDef.h	/^}APFW_GET_DEBUG_ST;$/;"	t	typeref:struct:__anon15
+APFW_UPGRADE_ST	hpStructDef.h	/^}APFW_UPGRADE_ST;$/;"	t	typeref:struct:__anon13
+APSTA_INFO_UCODE_ST	hpStructDef.h	/^}APSTA_INFO_UCODE_ST;$/;"	t	typeref:struct:__anon23
+AppletEntryVersion	hpStructDef.h	/^	UINT16 AppletEntryVersion;$/;"	m	struct:_HP_NVM_HEADER_LC
+BCM_HEADER_LEN	hpStructDef.h	215;"	d
+BCM_PARAM_CONTROL_LED	hpStructDef.h	228;"	d
+BCM_PARAM_DAK1	hpStructDef.h	230;"	d
+BCM_PARAM_MANUFACTURER_NID	hpStructDef.h	222;"	d
+BCM_PARAM_MANUFACTURER_NMK	hpStructDef.h	223;"	d
+BCM_PARAM_MANUFACTURE_HFID	hpStructDef.h	227;"	d
+BCM_PARAM_NID	hpStructDef.h	224;"	d
+BCM_PARAM_NMK	hpStructDef.h	225;"	d
+BCM_PARAM_OPTION_LED	hpStructDef.h	229;"	d
+BCM_PARAM_POWERSAVE	hpStructDef.h	232;"	d
+BCM_PARAM_QOS	hpStructDef.h	221;"	d
+BCM_PARAM_TX_MODE	hpStructDef.h	231;"	d
+BCM_PARAM_USER_HFID	hpStructDef.h	226;"	d
+BCM_STA_INFO_ST	hpStructDef.h	/^}BCM_STA_INFO_ST;$/;"	t	typeref:struct:__anon18
+BCM_TOS_BYTE_ST	hpStructDef.h	/^}BCM_TOS_BYTE_ST;$/;"	t	typeref:struct:__anon19
+BE16TOH	hpEndian.h	27;"	d
+BE16TOH	hpEndian.h	40;"	d
+BE32TOH	hpEndian.h	28;"	d
+BE32TOH	hpEndian.h	41;"	d
+BE64TOH	hpEndian.h	29;"	d
+BE64TOH	hpEndian.h	42;"	d
+BOOL	plcApi.h	/^typedef int     BOOL;$/;"	t
+BOOL	plcApi.h	/^}BOOL;$/;"	t	typeref:enum:__anon35
+BYTE_ORDER	hpEndian.h	19;"	d
+BehId	hpStructDef.h	/^	UINT8 BehId[3];\/\/ the first BehId is behavior ID$/;"	m	struct:_EVENT_BLOCK_NEW
+BehaviorBlockArray	hpStructDef.h	/^	}BehaviorBlockArray[32];$/;"	m	struct:_PIB_LED_CONFIG_NEW	typeref:struct:_PIB_LED_CONFIG_NEW::__anon33
+Behld	hpStructDef.h	/^		UINT8 Behld;$/;"	m	struct:_PIB_LED_CONFIG_NEW::__anon33
+ControlGpioMask	hpStructDef.h	/^	UINT8 ControlGpioMask[2];$/;"	m	struct:_PIB_LED_CONFIG_NEW
+DEFAULT_GGL_FILE_PATH	hpAVLib.h	40;"	d
+DEFAULT_NVM_FILE_PATH	hpAVLib.h	38;"	d
+DEFAULT_PIB_FILE_PATH	hpAVLib.h	39;"	d
+DurationlnMs	hpStructDef.h	/^		UINT8 DurationlnMs[12];$/;"	m	struct:_PIB_LED_CONFIG_NEW::__anon33
+ENDIAN_H	hpEndian.h	16;"	d
+ERROR	hpAVCommon.h	33;"	d
+EVENT_BLOCK_NEW	hpStructDef.h	/^}EVENT_BLOCK_NEW;$/;"	t	typeref:struct:_EVENT_BLOCK_NEW
+EntryPoint	hpStructDef.h	/^	UINT32 EntryPoint;$/;"	m	struct:_HP_NVM_HEADER_LC
+EventBlockArray	hpStructDef.h	/^	EVENT_BLOCK_NEW EventBlockArray[48];$/;"	m	struct:_PIB_LED_CONFIG_NEW
+EvtId	hpStructDef.h	/^	UINT8 EvtId;$/;"	m	struct:_EVENT_BLOCK_NEW
+EvtPriorityId	hpStructDef.h	/^	UINT8 EvtPriorityId;$/;"	m	struct:_EVENT_BLOCK_NEW
+ExecuteMask	hpStructDef.h	/^	UINT32 ExecuteMask;$/;"	m	struct:_HP_NVM_HEADER_LC
+FALSE	plcApi.h	/^	FALSE = 0,$/;"	e	enum:__anon35
+FALSE	plcApi.h	49;"	d
+FALSE	plcApi.h	52;"	d
+FMI	hpStructDef.h	/^	UINT16 FMI;$/;"	m	struct:_HP_QCA_MME_HEADER_V1
+FWVer	hpStructDef.h	/^	UINT32 FWVer;$/;"	m	struct:__anon18
+GPIOMaskBits	hpStructDef.h	/^		UINT8 GPIOMaskBits[12];$/;"	m	struct:_PIB_LED_CONFIG_NEW::__anon33
+HFID_AVLN	hpStructDef.h	/^	UINT8 HFID_AVLN[64];$/;"	m	struct:_HP_PIB_LOCAL_DEV_CFG
+HFID_AVLN	hpStructDef.h	/^	UINT8 HFID_AVLN[64];$/;"	m	struct:_HP_PIB_LOCAL_DEV_CFG_LC
+HFID_manufacture	hpStructDef.h	/^	UINT8 HFID_manufacture[64];$/;"	m	struct:_HP_PIB_LOCAL_DEV_CFG
+HFID_manufacture	hpStructDef.h	/^	UINT8 HFID_manufacture[64];$/;"	m	struct:_HP_PIB_LOCAL_DEV_CFG_LC
+HFID_user	hpStructDef.h	/^	UINT8 HFID_user[64];$/;"	m	struct:_HP_PIB_LOCAL_DEV_CFG
+HFID_user	hpStructDef.h	/^	UINT8 HFID_user[64];$/;"	m	struct:_HP_PIB_LOCAL_DEV_CFG_LC
+HOMEPLUG_WRITE_DATA	hpAVLib.h	/^}HOMEPLUG_WRITE_DATA;$/;"	t	typeref:enum:_HOMEPLUG_WRITE_DATA
+HPAV_COMMON_DEV_CFG	hpStructDef.h	/^}HPAV_COMMON_DEV_CFG;$/;"	t	typeref:struct:_HpAV_Common_Dev_Cfg
+HPAV_DEBUG	hpAVCommon.h	23;"	d
+HPAV_DEBUG	hpAVCommon.h	26;"	d
+HPAV_DEBUG_OUTPUT	hpAVCommon.h	24;"	d
+HPAV_DEBUG_OUTPUT	hpAVCommon.h	27;"	d
+HPAV_PAIR_JOIN	hpStructDef.h	1079;"	d
+HPAV_PAIR_LEAVE	hpStructDef.h	1080;"	d
+HPAV_PAIR_PKT	hpStructDef.h	/^}HPAV_PAIR_PKT;$/;"	t	typeref:struct:_hpav_pair_pkt
+HPAV_PHY_UNIT	hpAVCommon.h	30;"	d
+HPAV_version	hpStructDef.h	/^	UINT8 HPAV_version;$/;"	m	struct:__anon24
+HP_ADAPTER_INFO	hpAVLib.h	/^}HP_ADAPTER_INFO;$/;"	t	typeref:struct:__anon2
+HP_APCM_AUTHORIZE	hpStructDef.h	143;"	d
+HP_APCM_NW_STATS	hpStructDef.h	139;"	d
+HP_APCM_SET_KEY	hpStructDef.h	135;"	d
+HP_APCM_STA_RESTART	hpStructDef.h	141;"	d
+HP_APCM_UKE_CMD	hpStructDef.h	145;"	d
+HP_APFW_FACTORY_RESET	hpStructDef.h	140;"	d
+HP_APFW_GET_DEBUG	hpStructDef.h	138;"	d
+HP_APFW_GET_DEBUG_ST	hpStructDef.h	/^}HP_APFW_GET_DEBUG_ST;$/;"	t	typeref:struct:__anon14
+HP_APFW_GET_PARAM	hpStructDef.h	136;"	d
+HP_APFW_HDR_CFG_PARM_GET	hpStructDef.h	146;"	d
+HP_APFW_HDR_CFG_PARM_SET	hpStructDef.h	147;"	d
+HP_APFW_SET_PARAM	hpStructDef.h	137;"	d
+HP_APFW_UPGRADE	hpStructDef.h	144;"	d
+HP_APL2C_DISCOVERY	hpStructDef.h	134;"	d
+HP_APSTA_INFO	hpStructDef.h	142;"	d
+HP_AUTHORIZE_ST	hpStructDef.h	/^}HP_AUTHORIZE_ST;$/;"	t	typeref:struct:__anon11
+HP_AVLIB_H	hpAVLib.h	18;"	d
+HP_AV_API_H	hpAVapi.h	16;"	d
+HP_AV_LC_MODULE_ID_NVM	hpStructDef.h	201;"	d
+HP_AV_LC_MODULE_ID_PIB	hpStructDef.h	202;"	d
+HP_AV_MAKE_PACKET_H	hpAVMakePacket.h	16;"	d
+HP_BCM_HDR_PARM_ST	hpStructDef.h	/^}HP_BCM_HDR_PARM_ST;$/;"	t	typeref:struct:__anon26
+HP_BCM_MME_HEADER_ST	hpStructDef.h	/^}HP_BCM_MME_HEADER_ST;$/;"	t	typeref:struct:_HP_BCM_MME_HEADER
+HP_BCM_MMV	hpStructDef.h	32;"	d
+HP_BCM_MTYPE	hpStructDef.h	29;"	d
+HP_BCM_PARAM_ST	hpStructDef.h	/^}HP_BCM_PARAM_ST;$/;"	t	typeref:struct:__anon25
+HP_DAK_LEN	hpStructDef.h	39;"	d
+HP_DEV_INFO	hpAVLib.h	/^typedef PLC_DEV_INFO HP_DEV_INFO;$/;"	t
+HP_DEV_NAME_MAX_LEN	hpStructDef.h	44;"	d
+HP_DEV_PWD_MAX_LEN	hpStructDef.h	36;"	d
+HP_DEV_PWD_MIN_LEN	hpStructDef.h	37;"	d
+HP_DEV_TYPE_T	hpStructDef.h	/^typedef PLC_DEV_TYPE HP_DEV_TYPE_T;$/;"	t
+HP_ENET_SETTINGS_CNF	hpStructDef.h	/^}HP_ENET_SETTINGS_CNF;$/;"	t	typeref:struct:_HP_ENET_SETTINGS_CNF
+HP_ERRROR_DATA	hpAVLib.h	/^	HP_ERRROR_DATA			= 2,	$/;"	e	enum:_HOMEPLUG_WRITE_DATA
+HP_FAC_DEF_CNF	hpStructDef.h	/^}HP_FAC_DEF_CNF;$/;"	t	typeref:struct:__anon32
+HP_HST_ACT_RSP	hpStructDef.h	/^}HP_HST_ACT_RSP;$/;"	t	typeref:struct:_HP_HST_ACT_RSP
+HP_IF_OPR_H	hpifopr.h	17;"	d
+HP_LED_STATE_ERROR	hpStructDef.h	/^	HP_LED_STATE_ERROR,$/;"	e	enum:__anon5
+HP_LED_STATE_OFF	hpStructDef.h	/^	HP_LED_STATE_OFF = 0,$/;"	e	enum:__anon5
+HP_LED_STATE_ON	hpStructDef.h	/^	HP_LED_STATE_ON,$/;"	e	enum:__anon5
+HP_LED_STATE_T	hpStructDef.h	/^}HP_LED_STATE_T;$/;"	t	typeref:enum:__anon5
+HP_MACSL_MODID	hpStructDef.h	207;"	d
+HP_MACSWPIB_MODID	hpStructDef.h	210;"	d
+HP_MACSW_MODID	hpStructDef.h	208;"	d
+HP_MAX_FILES_UPGRADE	hpStructDef.h	218;"	d
+HP_MAX_HFID_LEN	hpStructDef.h	216;"	d
+HP_MAX_RMT_STA_NUM	hpStructDef.h	40;"	d
+HP_MAX_SW_VER_LEN	hpStructDef.h	217;"	d
+HP_MDIO_COMMAND_CNF	hpStructDef.h	/^}HP_MDIO_COMMAND_CNF;$/;"	t	typeref:struct:_HP_MDIO_COMMAND_CNF
+HP_MDIO_COMMAND_REQ	hpStructDef.h	/^}HP_MDIO_COMMAND_REQ;$/;"	t	typeref:struct:_HP_MDIO_COMMAND_REQ
+HP_MEM_AUTO	hpStructDef.h	260;"	d
+HP_MEM_DRAM	hpStructDef.h	264;"	d
+HP_MEM_DTCM	hpStructDef.h	262;"	d
+HP_MEM_IGNORE	hpStructDef.h	259;"	d
+HP_MEM_ITCM	hpStructDef.h	261;"	d
+HP_MEM_SRAM	hpStructDef.h	263;"	d
+HP_MISTERY_CNF	hpStructDef.h	/^}HP_MISTERY_CNF;$/;"	t	typeref:struct:_HP_MISTERY_CNF
+HP_MISTERY_REQ	hpStructDef.h	/^}HP_MISTERY_REQ;$/;"	t	typeref:struct:_HP_MISTERY_REQ
+HP_MMTYPE_CNF	hpStructDef.h	196;"	d
+HP_MMTYPE_IND	hpStructDef.h	197;"	d
+HP_MMTYPE_REQ	hpStructDef.h	195;"	d
+HP_MMTYPE_RSP	hpStructDef.h	198;"	d
+HP_MODULE_END	hpStructDef.h	255;"	d
+HP_MODULE_FW	hpStructDef.h	268;"	d
+HP_MODULE_MCTL	hpStructDef.h	266;"	d
+HP_MODULE_NUM	hpStructDef.h	269;"	d
+HP_MODULE_PIB	hpStructDef.h	267;"	d
+HP_MOD_OP_COMMIT_CONF	hpStructDef.h	/^}HP_MOD_OP_COMMIT_CONF;$/;"	t	typeref:struct:_HP_MOD_OP_COMMIT_CONF
+HP_MOD_OP_COMMIT_REQ	hpStructDef.h	/^}HP_MOD_OP_COMMIT_REQ;$/;"	t	typeref:struct:_HP_MOD_OP_COMMIT_REQ
+HP_MOD_OP_CONF_HEADER	hpStructDef.h	/^}HP_MOD_OP_CONF_HEADER;$/;"	t	typeref:struct:_HP_MOD_OP_CONF_HEADER
+HP_MOD_OP_RD_CONF	hpStructDef.h	/^}HP_MOD_OP_RD_CONF;$/;"	t	typeref:struct:_HP_MOD_OP_RD_CONF
+HP_MOD_OP_RD_REQ	hpStructDef.h	/^}HP_MOD_OP_RD_REQ;$/;"	t	typeref:struct:_HP_MOD_OP_RD_REQ
+HP_MOD_OP_REQ_HEADER	hpStructDef.h	/^}HP_MOD_OP_REQ_HEADER;$/;"	t	typeref:struct:_HP_MOD_OP_REQ_HEADER
+HP_MOD_OP_START_WR_SESSION_REQ	hpStructDef.h	/^}HP_MOD_OP_START_WR_SESSION_REQ;$/;"	t	typeref:struct:_HP_MOD_OP_START_WR_SESSION_REQ
+HP_MOD_OP_WR_CONF	hpStructDef.h	/^}HP_MOD_OP_WR_CONF;$/;"	t	typeref:struct:_HP_MOD_OP_WR_CONF
+HP_MOD_OP_WR_REQ	hpStructDef.h	/^}HP_MOD_OP_WR_REQ;$/;"	t	typeref:struct:_HP_MOD_OP_WR_REQ
+HP_MOD_OP_WR_SESSION_CONF	hpStructDef.h	/^}HP_MOD_OP_WR_SESSION_CONF;$/;"	t	typeref:struct:_HP_MOD_OP_WR_SESSION_CONF
+HP_MOD_START_WR_MOD	hpStructDef.h	/^}HP_MOD_START_WR_MOD;$/;"	t	typeref:struct:_HP_MOD_START_WR_MOD
+HP_MOD_STATUS_CONF	hpStructDef.h	/^}HP_MOD_STATUS_CONF;$/;"	t	typeref:struct:_HP_MOD_STATUS_CONF
+HP_NID_LEN	hpStructDef.h	24;"	d
+HP_NMK_LEN	hpStructDef.h	38;"	d
+HP_NTW_NAME_MAX_LEN	hpStructDef.h	34;"	d
+HP_NTW_NAME_MIN_LEN	hpStructDef.h	35;"	d
+HP_NVM_HEADER_LC	hpStructDef.h	/^}HP_NVM_HEADER_LC ;$/;"	t	typeref:struct:_HP_NVM_HEADER_LC
+HP_NW_INFO_CNF_V1	hpStructDef.h	/^} HP_NW_INFO_CNF_V1;$/;"	t	typeref:struct:_HP_NW_INFO_CNF_V1
+HP_PACKET_ID_ST	hpStructDef.h	/^}HP_PACKET_ID_ST;$/;"	t	typeref:struct:_HP_PACKET_ID
+HP_PIB_BUFFER_SIZE	hpStructDef.h	42;"	d
+HP_PIB_LOCAL_DEV_CFG	hpStructDef.h	/^}HP_PIB_LOCAL_DEV_CFG;$/;"	t	typeref:struct:_HP_PIB_LOCAL_DEV_CFG
+HP_PIB_LOCAL_DEV_CFG_LC	hpStructDef.h	/^}HP_PIB_LOCAL_DEV_CFG_LC;$/;"	t	typeref:struct:_HP_PIB_LOCAL_DEV_CFG_LC
+HP_PIB_MODID	hpStructDef.h	209;"	d
+HP_PIB_VER_HEAD	hpStructDef.h	/^}HP_PIB_VER_HEAD;$/;"	t	typeref:struct:_HP_PIB_VER_HEAD
+HP_PIB_VER_HEAD_7500	hpStructDef.h	/^}HP_PIB_VER_HEAD_7500;$/;"	t	typeref:struct:_HP_PIB_VER_HEAD_7500
+HP_PIB_VER_HEAD_LC	hpStructDef.h	/^}HP_PIB_VER_HEAD_LC;$/;"	t	typeref:struct:_HP_PIB_VER_HEAD_LC
+HP_PLC_OPER_LIST	hpAVLib.h	/^}HP_PLC_OPER_LIST;$/;"	t	typeref:struct:__anon4
+HP_PTS_NVM_CNF	hpStructDef.h	/^}HP_PTS_NVM_CNF;$/;"	t	typeref:struct:_HP_PTS_NVM_CNF
+HP_PTS_NVM_REQ	hpStructDef.h	/^}HP_PTS_NVM_REQ;$/;"	t	typeref:struct:_HP_PTS_NVM_REQ
+HP_QCA_MDIO_OP_ST	hpStructDef.h	/^}HP_QCA_MDIO_OP_ST;$/;"	t	typeref:struct:_HP_QCA_MDIO_OP_ST
+HP_QCA_MME_HEADER_ST	hpStructDef.h	/^}HP_QCA_MME_HEADER_ST;$/;"	t	typeref:struct:_HP_QCA_MME_HEADER
+HP_QCA_MME_HEADER_V1	hpStructDef.h	/^}HP_QCA_MME_HEADER_V1;$/;"	t	typeref:struct:_HP_QCA_MME_HEADER_V1
+HP_QCA_MMV	hpStructDef.h	30;"	d
+HP_QCA_MMV1	hpStructDef.h	31;"	d
+HP_QCA_MOD_OP_ST	hpStructDef.h	/^}HP_QCA_MOD_OP_ST;\/*this ST doesn't need pack*\/$/;"	t	typeref:struct:__anon20
+HP_QCA_MTYPE	hpStructDef.h	28;"	d
+HP_QCA_RECOVER_OP_ST	hpStructDef.h	/^}HP_QCA_RECOVER_OP_ST;$/;"	t	typeref:struct:_HP_QCA_RECOVER_OP_ST
+HP_RECOVER_PARA	hpAVLib.h	/^}HP_RECOVER_PARA;$/;"	t	typeref:struct:_HP_RECOVER_PARA
+HP_RESET_ALL_PARA	hpAVLib.h	/^}HP_RESET_ALL_PARA;$/;"	t	typeref:struct:_HP_RESET_ALL_PARA
+HP_RESTORE_CFG_PARA	hpAVLib.h	/^}HP_RESTORE_CFG_PARA;$/;"	t	typeref:struct:_HP_RESTORE_CFG_PARA
+HP_RMT_DEV	hpAVLib.h	/^}HP_RMT_DEV;$/;"	t	typeref:struct:_HP_RMT_DEV
+HP_RMT_DEV_INFO	hpAVLib.h	/^}HP_RMT_DEV_INFO;$/;"	t	typeref:struct:_HP_RMT_DEV_INFO
+HP_RMT_STA_ST	hpStructDef.h	/^}HP_RMT_STA_ST;$/;"	t	typeref:struct:__anon21
+HP_SEND_MODULE_ABSOLUTE_BIT	hpStructDef.h	272;"	d
+HP_SEND_MODULE_CLIENT_ID	hpStructDef.h	274;"	d
+HP_SEND_MODULE_EXECUTE_BIT	hpStructDef.h	271;"	d
+HP_SEND_MODULE_SERVER_ID	hpStructDef.h	275;"	d
+HP_SET_ALL_NMK_PARA	hpAVLib.h	/^}HP_SET_ALL_NMK_PARA;$/;"	t	typeref:struct:_HP_SET_ALL_NMK_PARA
+HP_SET_NMK_PARA_ST	hpAVLib.h	/^}HP_SET_NMK_PARA_ST;$/;"	t	typeref:struct:__anon3
+HP_STATION	hpStructDef.h	/^}HP_STATION;$/;"	t	typeref:struct:_HP_STATION
+HP_STATION_V1	hpStructDef.h	/^}HP_STATION_V1;$/;"	t	typeref:struct:_HP_STATION_V1
+HP_STRUCT_DEF_H	hpStructDef.h	16;"	d
+HP_STRUCT_HEADER	hpStructDef.h	/^}HP_STRUCT_HEADER;$/;"	t	typeref:struct:_HP_NVM_HEADER
+HP_SW_VERSION_LEN	hpStructDef.h	43;"	d
+HP_SW_VER_CNF	hpStructDef.h	/^}HP_SW_VER_CNF;$/;"	t	typeref:struct:_HP_SW_VER_CNF
+HP_SW_VER_ST	hpStructDef.h	/^}HP_SW_VER_ST;$/;"	t	typeref:struct:__anon12
+HP_TX_PACKET_ST	hpAVLib.h	/^}HP_TX_PACKET_ST;$/;"	t	typeref:struct:__anon1
+HP_UPGRADE_PARA	hpAVLib.h	/^typedef  PLC_UPGRADE_PARA HP_UPGRADE_PARA;$/;"	t
+HP_UPG_FILE_INFO_ST	hpStructDef.h	/^}HP_UPG_FILE_INFO_ST;$/;"	t	typeref:struct:__anon16
+HP_UPG_FILE_NAME_MAX_LEN	hpStructDef.h	219;"	d
+HP_UPG_TYPE_BIN	hpStructDef.h	/^	HP_UPG_TYPE_BIN, \/\/binary$/;"	e	enum:__anon6
+HP_UPG_TYPE_BOOT_HEADER	hpStructDef.h	/^	HP_UPG_TYPE_BOOT_HEADER, \/\/boot header upgrade$/;"	e	enum:__anon6
+HP_UPG_TYPE_ERR	hpStructDef.h	/^	HP_UPG_TYPE_ERR,$/;"	e	enum:__anon6
+HP_UPG_TYPE_FIRMWARE	hpStructDef.h	/^	HP_UPG_TYPE_FIRMWARE = 0, \/\/firmwave upgrade$/;"	e	enum:__anon6
+HP_UPG_TYPE_NULL_FIRMWARE	hpStructDef.h	/^	HP_UPG_TYPE_NULL_FIRMWARE,$/;"	e	enum:__anon6
+HP_UPG_TYPE_PARAM_CONFIG	hpStructDef.h	/^	HP_UPG_TYPE_PARAM_CONFIG, \/\/configuration parameters upgrade$/;"	e	enum:__anon6
+HP_UPG_TYPE_PCFG	hpStructDef.h	/^	HP_UPG_TYPE_PCFG,$/;"	e	enum:__anon6
+HP_UPG_TYPE_RABIN	hpStructDef.h	/^	HP_UPG_TYPE_RABIN,$/;"	e	enum:__anon6
+HP_UPG_TYPE_RACFG	hpStructDef.h	/^	HP_UPG_TYPE_RACFG,$/;"	e	enum:__anon6
+HP_UPG_TYPE_RAW	hpStructDef.h	/^	HP_UPG_TYPE_RAW,$/;"	e	enum:__anon6
+HP_UPG_TYPE_SMALL_FIRMWARE	hpStructDef.h	/^	HP_UPG_TYPE_SMALL_FIRMWARE,$/;"	e	enum:__anon6
+HP_UPG_TYPE_T	hpStructDef.h	/^}HP_UPG_TYPE_T;$/;"	t	typeref:enum:__anon6
+HP_UPG_TYPE_TR069_FIRMWARE	hpStructDef.h	/^	HP_UPG_TYPE_TR069_FIRMWARE,$/;"	e	enum:__anon6
+HP_UPG_TYPE_TR069_PARAMCONFIGB	hpStructDef.h	/^	HP_UPG_TYPE_TR069_PARAMCONFIGB,$/;"	e	enum:__anon6
+HP_UPG_TYPE_TR069_PARMCONFIG	hpStructDef.h	/^	HP_UPG_TYPE_TR069_PARMCONFIG,$/;"	e	enum:__anon6
+HP_UPG_TYPE_TR069_SSLCFG	hpStructDef.h	/^	HP_UPG_TYPE_TR069_SSLCFG,$/;"	e	enum:__anon6
+HP_UPG_TYPE_TR069_SSLCPE	hpStructDef.h	/^	HP_UPG_TYPE_TR069_SSLCPE,$/;"	e	enum:__anon6
+HP_VS_CP_RPT	hpStructDef.h	168;"	d
+HP_VS_ENET_SETTINGS	hpStructDef.h	179;"	d
+HP_VS_FAC_DEFAULTS	hpStructDef.h	182;"	d
+HP_VS_FR_LBK	hpStructDef.h	170;"	d
+HP_VS_GET_NVM	hpStructDef.h	156;"	d
+HP_VS_HST_ACTION	hpStructDef.h	176;"	d
+HP_VS_LBK_STAT	hpStructDef.h	171;"	d
+HP_VS_LNK_STATS	hpStructDef.h	164;"	d
+HP_VS_MDIO_COMMAND	hpStructDef.h	187;"	d
+HP_VS_MFG_STRING	hpStructDef.h	173;"	d
+HP_VS_MISTERY	hpStructDef.h	191;"	d
+HP_VS_MOD_NVM	hpStructDef.h	162;"	d
+HP_VS_MOD_NVM_CNF	hpStructDef.h	/^}HP_VS_MOD_NVM_CNF;$/;"	t	typeref:struct:_HP_VS_MOD_NVM_CNF
+HP_VS_MOD_NVM_REQ	hpStructDef.h	/^}HP_VS_MOD_NVM_REQ;$/;"	t	typeref:struct:_HP_VS_MOD_NVM_REQ
+HP_VS_MOD_OPER	hpStructDef.h	188;"	d
+HP_VS_NW_INFO	hpStructDef.h	166;"	d
+HP_VS_NW_INFO_STATS	hpStructDef.h	181;"	d
+HP_VS_OP_ATTRIBUTES	hpStructDef.h	178;"	d
+HP_VS_PAIR	hpStructDef.h	189;"	d
+HP_VS_PTS_NVM	hpStructDef.h	183;"	d
+HP_VS_RD_CBLOCK	hpStructDef.h	174;"	d
+HP_VS_RD_MEM	hpStructDef.h	154;"	d
+HP_VS_RD_MOD	hpStructDef.h	161;"	d
+HP_VS_RD_MOD_CNF	hpStructDef.h	/^}HP_VS_RD_MOD_CNF;$/;"	t	typeref:struct:_HP_VS_RD_MOD_CNF
+HP_VS_RD_MOD_REQ	hpStructDef.h	/^}HP_VS_RD_MOD_REQ;$/;"	t	typeref:struct:_HP_VS_RD_MOD_REQ
+HP_VS_RSVD_1	hpStructDef.h	157;"	d
+HP_VS_RSVD_2	hpStructDef.h	158;"	d
+HP_VS_RSVD_3	hpStructDef.h	167;"	d
+HP_VS_RSVD_4	hpStructDef.h	169;"	d
+HP_VS_RSVD_5	hpStructDef.h	177;"	d
+HP_VS_RS_DEV	hpStructDef.h	159;"	d
+HP_VS_RS_DEV_CNF	hpStructDef.h	/^}HP_VS_RS_DEV_CNF;$/;"	t	typeref:struct:__anon31
+HP_VS_RX_TONE_MAP_CHAR	hpStructDef.h	184;"	d
+HP_VS_SET_KEY	hpStructDef.h	172;"	d
+HP_VS_SET_LED_BEHAVIOR	hpStructDef.h	185;"	d
+HP_VS_SET_SDRAM	hpStructDef.h	175;"	d
+HP_VS_SNIFFER	hpStructDef.h	165;"	d
+HP_VS_STATE_CHANGE_INDICATE	hpStructDef.h	190;"	d
+HP_VS_ST_MAC	hpStructDef.h	155;"	d
+HP_VS_SW_VER	hpStructDef.h	152;"	d
+HP_VS_TONE_MAP_CHAR	hpStructDef.h	180;"	d
+HP_VS_WD_RPT	hpStructDef.h	163;"	d
+HP_VS_WRITE_AND_EXECUTE_APPLET	hpStructDef.h	186;"	d
+HP_VS_WR_MEM	hpStructDef.h	153;"	d
+HP_VS_WR_MOD	hpStructDef.h	160;"	d
+HP_VS_WR_MOD_CNF	hpStructDef.h	/^}HP_VS_WR_MOD_CNF;$/;"	t	typeref:struct:_HP_VS_WR_MOD_CNF
+HP_VS_WR_MOD_REQ	hpStructDef.h	/^}HP_VS_WR_MOD_REQ;$/;"	t	typeref:struct:_HP_VS_WR_MOD_REQ
+HP_WRALT_MODID	hpStructDef.h	211;"	d
+HP_WRITE_AND_EXECUTE_APPLET_CNF	hpStructDef.h	/^}HP_WRITE_AND_EXECUTE_APPLET_CNF;$/;"	t	typeref:struct:_HP_WRITE_AND_EXECUTE_APPLET_CNF
+HP_WRITE_AND_EXECUTE_APPLET_REQ	hpStructDef.h	/^}HP_WRITE_AND_EXECUTE_APPLET_REQ;$/;"	t	typeref:struct:_HP_WRITE_AND_EXECUTE_APPLET_REQ
+HP_WRITE_NVM_DATA	hpAVLib.h	/^	HP_WRITE_NVM_DATA		= 1,$/;"	e	enum:_HOMEPLUG_WRITE_DATA
+HP_WRITE_PIB_DATA	hpAVLib.h	/^	HP_WRITE_PIB_DATA		= 0,$/;"	e	enum:_HOMEPLUG_WRITE_DATA
+HTOBE16	hpEndian.h	30;"	d
+HTOBE16	hpEndian.h	43;"	d
+HTOBE32	hpEndian.h	31;"	d
+HTOBE32	hpEndian.h	44;"	d
+HTOBE64	hpEndian.h	32;"	d
+HTOBE64	hpEndian.h	45;"	d
+HTOLE16	hpEndian.h	36;"	d
+HTOLE16	hpEndian.h	49;"	d
+HTOLE32	hpEndian.h	37;"	d
+HTOLE32	hpEndian.h	50;"	d
+HTOLE64	hpEndian.h	38;"	d
+HTOLE64	hpEndian.h	51;"	d
+HWVer	hpStructDef.h	/^	UINT32 HWVer;$/;"	m	struct:__anon18
+HeaderChecksum	hpStructDef.h	/^	UINT32 HeaderChecksum;$/;"	m	struct:_HP_NVM_HEADER_LC
+IFOPR_ERRBUF_SIZE	ifopr.h	23;"	d
+IFOPR_H	ifopr.h	18;"	d
+IFOPR_HANDLE	ifopr.h	/^struct IFOPR_HANDLE$/;"	s
+IFOPR_IF	ifopr.h	/^struct IFOPR_IF$/;"	s
+IFOPR_IF_LIST	ifopr.h	/^struct IFOPR_IF_LIST$/;"	s
+IFOPR_NAME_SIZE	ifopr.h	24;"	d
+IF_ADDR_LEN	ifopr.h	22;"	d
+INT16	SHA256.h	32;"	d
+INT16	plcApi.h	/^typedef signed short		INT16;$/;"	t
+INT32	SHA256.h	34;"	d
+INT32	plcApi.h	/^typedef signed int			INT32;$/;"	t
+INT8	SHA256.h	33;"	d
+INT8	plcApi.h	/^typedef signed char 		INT8;$/;"	t
+INTERFACE_NAME	hpAVLib.h	28;"	d
+Id	hpStructDef.h	/^			UINT16 Id;$/;"	m	struct:_HP_NVM_HEADER_LC::__anon34::Identifier
+Identifier	hpStructDef.h	/^		struct Identifier$/;"	s	union:_HP_NVM_HEADER_LC::__anon34
+Identifier	hpStructDef.h	/^		}Identifier;$/;"	m	union:_HP_NVM_HEADER_LC::__anon34	typeref:struct:_HP_NVM_HEADER_LC::__anon34::Identifier
+Identifier_AsUint32	hpStructDef.h	/^		UINT32 Identifier_AsUint32;$/;"	m	union:_HP_NVM_HEADER_LC::__anon34
+ImageAddress	hpStructDef.h	/^	UINT32 ImageAddress;$/;"	m	struct:_HP_NVM_HEADER_LC
+ImageChecksum	hpStructDef.h	/^	UINT32 ImageChecksum;$/;"	m	struct:_HP_NVM_HEADER_LC
+ImageLength	hpStructDef.h	/^	UINT32 ImageLength;$/;"	m	struct:_HP_NVM_HEADER_LC
+ImageNvmAddress	hpStructDef.h	/^	UINT32 ImageNvmAddress;$/;"	m	struct:_HP_NVM_HEADER_LC
+ImageType	hpStructDef.h	/^	UINT32 ImageType;$/;"	m	struct:_HP_NVM_HEADER_LC
+InputGpioMask	hpStructDef.h	/^	UINT8 InputGpioMask[2];$/;"	m	struct:_PIB_LED_CONFIG_NEW
+LE16TOH	hpEndian.h	33;"	d
+LE16TOH	hpEndian.h	46;"	d
+LE32TOH	hpEndian.h	34;"	d
+LE32TOH	hpEndian.h	47;"	d
+LE64TOH	hpEndian.h	35;"	d
+LE64TOH	hpEndian.h	48;"	d
+MAC_ADDR_LEN	hpStructDef.h	20;"	d
+MAX_BCM_PARAM_LEN	hpStructDef.h	54;"	d
+MAX_HP_ETH_FRAME_LEN	hpStructDef.h	47;"	d
+MAX_HP_PACKET_SIZE	hpStructDef.h	50;"	d
+MAX_HP_VS_MOD_DATA_LEN	hpStructDef.h	52;"	d
+MAX_HP_VS_MOD_OPER_DATA_LEN	hpStructDef.h	53;"	d
+MAX_NTWNAME_LEN	hpAVCommon.h	31;"	d
+MII_0LinkStatus	hpStructDef.h	/^	UINT8 MII_0LinkStatus;$/;"	m	struct:__anon14
+MII_1LinkStatus	hpStructDef.h	/^	UINT8 MII_1LinkStatus;$/;"	m	struct:__anon14
+MIN_HP_ETH_FRAME_LEN	hpStructDef.h	46;"	d
+MIN_HP_PACKET_SIZE	hpStructDef.h	49;"	d
+MajorVersion	hpStructDef.h	/^	UINT16 MajorVersion;$/;"	m	struct:_HP_NVM_HEADER_LC
+MinorVersion	hpStructDef.h	/^	UINT16 MinorVersion;$/;"	m	struct:_HP_NVM_HEADER_LC
+NULL	plcApi.h	51;"	d
+NULL	plcApi.h	54;"	d
+NVM_IMAGE_ADVPWRMGMT	hpStructDef.h	247;"	d
+NVM_IMAGE_APPLET_DENALI	hpStructDef.h	242;"	d
+NVM_IMAGE_CONFIG_DENALI	hpStructDef.h	241;"	d
+NVM_IMAGE_CONFIG_SYNOPSIS	hpStructDef.h	240;"	d
+NVM_IMAGE_CUSTOM	hpStructDef.h	245;"	d
+NVM_IMAGE_FIRMWARE	hpStructDef.h	243;"	d
+NVM_IMAGE_FLASH_LAYOUT	hpStructDef.h	251;"	d
+NVM_IMAGE_GENERIC	hpStructDef.h	239;"	d
+NVM_IMAGE_MANIFEST	hpStructDef.h	252;"	d
+NVM_IMAGE_MEMCTL	hpStructDef.h	246;"	d
+NVM_IMAGE_NVM_SOFTLOADER	hpStructDef.h	250;"	d
+NVM_IMAGE_OASCLIENT	hpStructDef.h	244;"	d
+NVM_IMAGE_OAS_CLIENT_IP_STK	hpStructDef.h	248;"	d
+NVM_IMAGE_OAS_CLIENT_TR069	hpStructDef.h	249;"	d
+NVM_IMAGE_PIB	hpStructDef.h	253;"	d
+NextHeader	hpStructDef.h	/^	UINT32 NextHeader;$/;"	m	struct:_HP_NVM_HEADER_LC
+NoOfSteps	hpStructDef.h	/^		UINT8 NoOfSteps;$/;"	m	struct:_PIB_LED_CONFIG_NEW::__anon33
+NumBehaviors	hpStructDef.h	/^	UINT8 NumBehaviors;$/;"	m	struct:_PIB_LED_CONFIG_NEW
+NumEvents	hpStructDef.h	/^	UINT8 NumEvents;$/;"	m	struct:_PIB_LED_CONFIG_NEW
+OK	hpAVCommon.h	34;"	d
+OutputGpioMask	hpStructDef.h	/^	UINT8 OutputGpioMask[2];$/;"	m	struct:_PIB_LED_CONFIG_NEW
+OverrideDefaultLedEventBehavior	hpStructDef.h	/^	UINT8 OverrideDefaultLedEventBehavior;$/;"	m	struct:_PIB_LED_CONFIG_NEW
+PIB_LED_CONFIG_NEW	hpStructDef.h	/^}PIB_LED_CONFIG_NEW;$/;"	t	typeref:struct:_PIB_LED_CONFIG_NEW
+PLCAPI_H	plcApi.h	17;"	d
+PLCD_DEBUG	plcDebug.h	15;"	d
+PLC_CFG_DATA	hpAVLib.h	/^}PLC_CFG_DATA;$/;"	t	typeref:struct:_PLC_CFG_DATA
+PLC_DAK_LEN	plcApi.h	32;"	d
+PLC_DEFAULT_NMK	hpAVLib.h	32;"	d
+PLC_DEF_NTW_NAME	hpAVLib.h	31;"	d
+PLC_DEV_BASE	plcApi.h	/^} PLC_DEV_BASE;$/;"	t	typeref:struct:_PLC_DEV_BASE
+PLC_DEV_CFG	hpAVLib.h	/^}PLC_DEV_CFG;$/;"	t	typeref:struct:_PLC_DEV_CFG
+PLC_DEV_ENTRY	hpAVLib.h	/^}PLC_DEV_ENTRY;$/;"	t	typeref:struct:_PLC_DEV_ENTRY
+PLC_DEV_INFO	plcApi.h	/^} PLC_DEV_INFO;$/;"	t	typeref:struct:_PLC_DEV_INFO
+PLC_DEV_NAME_LEN	plcApi.h	31;"	d
+PLC_DEV_TYPE	plcApi.h	/^} PLC_DEV_TYPE;$/;"	t	typeref:enum:__anon37
+PLC_DEV_TYPE_BCM	plcApi.h	/^    PLC_DEV_TYPE_BCM,$/;"	e	enum:__anon37
+PLC_DEV_TYPE_QCA	plcApi.h	/^    PLC_DEV_TYPE_QCA = 0,$/;"	e	enum:__anon37
+PLC_DEV_TYPE_UNKNOWN	plcApi.h	/^    PLC_DEV_TYPE_UNKNOWN,$/;"	e	enum:__anon37
+PLC_ERR	plcApi.h	/^    PLC_ERR = -1,$/;"	e	enum:__anon36
+PLC_ERROR_MESSAGE_LEN	plcApi.h	28;"	d
+PLC_ERR_ADD_DEVICE	plcApi.h	/^    PLC_ERR_ADD_DEVICE = -43,$/;"	e	enum:__anon36
+PLC_ERR_GET_DAK	plcApi.h	/^    PLC_ERR_GET_DAK = -13,$/;"	e	enum:__anon36
+PLC_ERR_GET_ETH_STATUS	plcApi.h	/^    PLC_ERR_GET_ETH_STATUS = -9,$/;"	e	enum:__anon36
+PLC_ERR_GET_HFID	plcApi.h	/^    PLC_ERR_GET_HFID = -5,$/;"	e	enum:__anon36
+PLC_ERR_GET_LED	plcApi.h	/^    PLC_ERR_GET_LED = -8,$/;"	e	enum:__anon36
+PLC_ERR_GET_NET_INFO	plcApi.h	/^    PLC_ERR_GET_NET_INFO = -11,$/;"	e	enum:__anon36
+PLC_ERR_GET_NMK	plcApi.h	/^    PLC_ERR_GET_NMK = -6,$/;"	e	enum:__anon36
+PLC_ERR_GET_PARAM	plcApi.h	/^    PLC_ERR_GET_PARAM = -12,$/;"	e	enum:__anon36
+PLC_ERR_GET_POWERSAVE	plcApi.h	/^    PLC_ERR_GET_POWERSAVE = -15,$/;"	e	enum:__anon36
+PLC_ERR_GET_PWD	plcApi.h	/^    PLC_ERR_GET_PWD = -10,$/;"	e	enum:__anon36
+PLC_ERR_GET_QOS	plcApi.h	/^    PLC_ERR_GET_QOS = -7,$/;"	e	enum:__anon36
+PLC_ERR_GET_SW_VERSION	plcApi.h	/^    PLC_ERR_GET_SW_VERSION = -4,$/;"	e	enum:__anon36
+PLC_ERR_GET_TRANS_MODE	plcApi.h	/^    PLC_ERR_GET_TRANS_MODE = -14,$/;"	e	enum:__anon36
+PLC_ERR_INVALID_DEVICE	plcApi.h	/^    PLC_ERR_INVALID_DEVICE = -3,$/;"	e	enum:__anon36
+PLC_ERR_INVALID_PARAM	plcApi.h	/^    PLC_ERR_INVALID_PARAM = -2,$/;"	e	enum:__anon36
+PLC_ERR_PAIR	plcApi.h	/^    PLC_ERR_PAIR = -44,$/;"	e	enum:__anon36
+PLC_ERR_REBOOT	plcApi.h	/^    PLC_ERR_REBOOT = -41,$/;"	e	enum:__anon36
+PLC_ERR_RECOVER	plcApi.h	/^    PLC_ERR_RECOVER = -45,$/;"	e	enum:__anon36
+PLC_ERR_RESET	plcApi.h	/^    PLC_ERR_RESET = -40,$/;"	e	enum:__anon36
+PLC_ERR_SET_LED	plcApi.h	/^    PLC_ERR_SET_LED = -22,$/;"	e	enum:__anon36
+PLC_ERR_SET_MAC	plcApi.h	/^    PLC_ERR_SET_MAC = -24,$/;"	e	enum:__anon36
+PLC_ERR_SET_NMK	plcApi.h	/^    PLC_ERR_SET_NMK = -20,$/;"	e	enum:__anon36
+PLC_ERR_SET_PARAM	plcApi.h	/^    PLC_ERR_SET_PARAM = -23,$/;"	e	enum:__anon36
+PLC_ERR_SET_POWERSAVE	plcApi.h	/^    PLC_ERR_SET_POWERSAVE = -26,$/;"	e	enum:__anon36
+PLC_ERR_SET_QOS	plcApi.h	/^    PLC_ERR_SET_QOS = -21,$/;"	e	enum:__anon36
+PLC_ERR_SET_TRANS_MODE	plcApi.h	/^    PLC_ERR_SET_TRANS_MODE = -25,$/;"	e	enum:__anon36
+PLC_ERR_UNKNOWN	plcApi.h	/^    PLC_ERR_UNKNOWN = -100,$/;"	e	enum:__anon36
+PLC_ERR_UPGRADE	plcApi.h	/^    PLC_ERR_UPGRADE = -42,$/;"	e	enum:__anon36
+PLC_ETH_INFO	plcApi.h	/^} PLC_ETH_INFO;$/;"	t	typeref:struct:_PLC_ETH_INFO
+PLC_HFID_LEN	plcApi.h	36;"	d
+PLC_LOCAL_DEV	plcApi.h	/^} PLC_LOCAL_DEV;$/;"	t	typeref:struct:_PLC_LOCAL_DEV
+PLC_MAC_ADDR_LEN	plcApi.h	29;"	d
+PLC_MAC_STR_LEN	plcApi.h	30;"	d
+PLC_MAX_DEV_NUM	plcApi.h	34;"	d
+PLC_MAX_NIC_NUM	plcApi.h	23;"	d
+PLC_MAX_NTW_NAME_LEN	plcApi.h	24;"	d
+PLC_MIN_NTW_NAME_LEN	plcApi.h	25;"	d
+PLC_MODULE_SIZE	hpStructDef.h	256;"	d
+PLC_NMK_LEN	plcApi.h	33;"	d
+PLC_OK	plcApi.h	/^    PLC_OK = 0,$/;"	e	enum:__anon36
+PLC_PARAM	plcApi.h	/^} PLC_PARAM;$/;"	t	typeref:struct:_PLC_PARAM
+PLC_PIB_SIZE	plcApi.h	37;"	d
+PLC_PWD_LEN	plcApi.h	26;"	d
+PLC_PWD_MAX_LEN	plcApi.h	35;"	d
+PLC_QOS_CFG	plcApi.h	/^}PLC_QOS_CFG;$/;"	t	typeref:struct:_PLC_QOS_CFG
+PLC_RECOVER_PARA	plcApi.h	/^} PLC_RECOVER_PARA;$/;"	t	typeref:struct:_PLC_RECOVER_PARA
+PLC_RMT_DEV	plcApi.h	/^} PLC_RMT_DEV;$/;"	t	typeref:struct:_PLC_RMT_DEV
+PLC_RMT_DEV_INFO	plcApi.h	/^} PLC_RMT_DEV_INFO;$/;"	t	typeref:struct:_PLC_RMT_DEV_INFO
+PLC_SET_MAC_INFO	plcApi.h	/^} PLC_SET_MAC_INFO;$/;"	t	typeref:struct:_PLC_SET_MAC_INFO
+PLC_STATUS	plcApi.h	/^} PLC_STATUS;$/;"	t	typeref:enum:__anon36
+PLC_SW_VERSION_LEN	plcApi.h	27;"	d
+PLC_UKN_NTW_NAME	hpAVLib.h	30;"	d
+PLC_UPGRADE_PARA	plcApi.h	/^} PLC_UPGRADE_PARA;$/;"	t	typeref:struct:_PLC_UPGRADE_PARA
+ParticipatingGPIOs	hpStructDef.h	/^	UINT8 ParticipatingGPIOs[2];\/\/the first Participating GPIO is the modify GPIO$/;"	m	struct:_EVENT_BLOCK_NEW
+PinToGpioNoMapping	hpStructDef.h	/^	UINT8 PinToGpioNoMapping[6];$/;"	m	struct:_PIB_LED_CONFIG_NEW
+PreferredNID	hpStructDef.h	/^	UINT8 PreferredNID[7];$/;"	m	struct:_HP_PIB_LOCAL_DEV_CFG
+PrevHeader	hpStructDef.h	/^	UINT32 PrevHeader;$/;"	m	struct:_HP_NVM_HEADER_LC
+QCA_HEADER_LEN	hpStructDef.h	214;"	d
+RSVD	hpStructDef.h	/^		UINT8 RSVD[2];$/;"	m	struct:_PIB_LED_CONFIG_NEW::__anon33
+ReportToHostConfig	hpStructDef.h	/^	UINT8 ReportToHostConfig;$/;"	m	struct:_PIB_LED_CONFIG_NEW
+Reserved0	hpStructDef.h	/^	UINT16 Reserved0;$/;"	m	struct:_HP_NVM_HEADER_LC
+Reserved1	hpStructDef.h	/^	UINT32 Reserved1;$/;"	m	struct:_HP_NVM_HEADER_LC
+Reserved10	hpStructDef.h	/^	UINT32 Reserved10;$/;"	m	struct:_HP_NVM_HEADER_LC
+Reserved11	hpStructDef.h	/^	UINT32 Reserved11;$/;"	m	struct:_HP_NVM_HEADER_LC
+Reserved2	hpStructDef.h	/^	UINT32 Reserved2;$/;"	m	struct:_HP_NVM_HEADER_LC
+Reserved3	hpStructDef.h	/^	UINT32 Reserved3;$/;"	m	struct:_HP_NVM_HEADER_LC
+Reserved4	hpStructDef.h	/^	UINT32 Reserved4;$/;"	m	struct:_HP_NVM_HEADER_LC
+Reserved5	hpStructDef.h	/^	UINT32 Reserved5;$/;"	m	struct:_HP_NVM_HEADER_LC
+Reserved6	hpStructDef.h	/^	UINT32 Reserved6;$/;"	m	struct:_HP_NVM_HEADER_LC
+Reserved7	hpStructDef.h	/^	UINT32 Reserved7;$/;"	m	struct:_HP_NVM_HEADER_LC
+Reserved8	hpStructDef.h	/^	UINT32 Reserved8;$/;"	m	struct:_HP_NVM_HEADER_LC
+Reserved9	hpStructDef.h	/^	UINT32 Reserved9;$/;"	m	struct:_HP_NVM_HEADER_LC
+RomVer	hpStructDef.h	/^	UINT32 RomVer;$/;"	m	struct:__anon18
+SET_LOCAL_KEY_FLAG	hpAVLib.h	25;"	d
+SET_REMOTE_KEY_FLAG	hpAVLib.h	26;"	d
+SHA256	SHA256.h	/^SHA256;$/;"	t	typeref:struct:sha256
+SHA256_DIGEST_LENGTH	SHA256.h	26;"	d
+SHA256_HEADER	SHA256.h	12;"	d
+SL	hpStructDef.h	/^	UINT8 SL;$/;"	m	struct:__anon27
+SubId	hpStructDef.h	/^			UINT16 SubId;$/;"	m	struct:_HP_NVM_HEADER_LC::__anon34::Identifier
+TP_USER_HFID_LEN	hpAVLib.h	43;"	d
+TP_USER_HFID_MODEL_LEN	hpAVLib.h	48;"	d
+TP_USER_HFID_PREFIX	hpAVLib.h	46;"	d
+TP_USER_HFID_PREFIX_LEN	hpAVLib.h	47;"	d
+TP_USER_HFID_STR_LEN	hpAVLib.h	44;"	d
+TP_USER_HFID_VER_LEN	hpAVLib.h	45;"	d
+TRUE	plcApi.h	/^	TRUE$/;"	e	enum:__anon35
+TRUE	plcApi.h	50;"	d
+TRUE	plcApi.h	53;"	d
+UINT16	SHA256.h	37;"	d
+UINT16	plcApi.h	/^typedef unsigned short 		UINT16;$/;"	t
+UINT32	SHA256.h	36;"	d
+UINT32	plcApi.h	/^typedef unsigned int 		UINT32;$/;"	t
+UINT64	plcApi.h	/^typedef unsigned long long	UINT64;$/;"	t
+UINT8	SHA256.h	35;"	d
+UINT8	plcApi.h	/^typedef unsigned char 		UINT8;$/;"	t
+ULONG	SHA256.h	38;"	d
+USHORT	SHA256.h	39;"	d
+VS_NW_INFO_CNF	hpStructDef.h	/^}VS_NW_INFO_CNF;$/;"	t	typeref:struct:__anon29
+VS_SET_KEY_CNF_ST	hpStructDef.h	/^}VS_SET_KEY_CNF_ST;$/;"	t	typeref:struct:_HP_SET_KEY_CNF
+VS_SET_KEY_REQ_ST	hpStructDef.h	/^}VS_SET_KEY_REQ_ST;$/;"	t	typeref:struct:__anon30
+WIN32_LEAN_AND_MEAN	hpAVapi.h	18;"	d
+_EVENT_BLOCK_NEW	hpStructDef.h	/^typedef struct _EVENT_BLOCK_NEW $/;"	s
+_HOMEPLUG_WRITE_DATA	hpAVLib.h	/^typedef enum _HOMEPLUG_WRITE_DATA$/;"	g
+_HP_AV_RESOLVE_PACKET_H_	hpAVResolvePacket.h	3;"	d
+_HP_BCM_MME_HEADER	hpStructDef.h	/^typedef struct _HP_BCM_MME_HEADER$/;"	s
+_HP_ENET_SETTINGS_CNF	hpStructDef.h	/^typedef struct _HP_ENET_SETTINGS_CNF$/;"	s
+_HP_HST_ACT_RSP	hpStructDef.h	/^typedef struct _HP_HST_ACT_RSP$/;"	s
+_HP_MDIO_COMMAND_CNF	hpStructDef.h	/^typedef struct _HP_MDIO_COMMAND_CNF$/;"	s
+_HP_MDIO_COMMAND_REQ	hpStructDef.h	/^typedef struct _HP_MDIO_COMMAND_REQ$/;"	s
+_HP_MISTERY_CNF	hpStructDef.h	/^typedef struct _HP_MISTERY_CNF$/;"	s
+_HP_MISTERY_REQ	hpStructDef.h	/^typedef struct _HP_MISTERY_REQ$/;"	s
+_HP_MOD_OP_COMMIT_CONF	hpStructDef.h	/^typedef  struct _HP_MOD_OP_COMMIT_CONF$/;"	s
+_HP_MOD_OP_COMMIT_REQ	hpStructDef.h	/^typedef  struct _HP_MOD_OP_COMMIT_REQ$/;"	s
+_HP_MOD_OP_CONF_HEADER	hpStructDef.h	/^typedef  struct _HP_MOD_OP_CONF_HEADER$/;"	s
+_HP_MOD_OP_RD_CONF	hpStructDef.h	/^typedef  struct _HP_MOD_OP_RD_CONF$/;"	s
+_HP_MOD_OP_RD_REQ	hpStructDef.h	/^typedef  struct _HP_MOD_OP_RD_REQ$/;"	s
+_HP_MOD_OP_REQ_HEADER	hpStructDef.h	/^typedef  struct _HP_MOD_OP_REQ_HEADER$/;"	s
+_HP_MOD_OP_START_WR_SESSION_REQ	hpStructDef.h	/^typedef  struct _HP_MOD_OP_START_WR_SESSION_REQ$/;"	s
+_HP_MOD_OP_WR_CONF	hpStructDef.h	/^typedef  struct _HP_MOD_OP_WR_CONF$/;"	s
+_HP_MOD_OP_WR_REQ	hpStructDef.h	/^typedef  struct _HP_MOD_OP_WR_REQ$/;"	s
+_HP_MOD_OP_WR_SESSION_CONF	hpStructDef.h	/^typedef  struct _HP_MOD_OP_WR_SESSION_CONF$/;"	s
+_HP_MOD_START_WR_MOD	hpStructDef.h	/^typedef  struct _HP_MOD_START_WR_MOD$/;"	s
+_HP_MOD_STATUS_CONF	hpStructDef.h	/^typedef  struct _HP_MOD_STATUS_CONF$/;"	s
+_HP_NVM_HEADER	hpStructDef.h	/^typedef struct _HP_NVM_HEADER $/;"	s
+_HP_NVM_HEADER_LC	hpStructDef.h	/^typedef	struct _HP_NVM_HEADER_LC $/;"	s
+_HP_NW_INFO_CNF_V1	hpStructDef.h	/^typedef struct _HP_NW_INFO_CNF_V1$/;"	s
+_HP_PACKET_ID	hpStructDef.h	/^typedef struct _HP_PACKET_ID$/;"	s
+_HP_PIB_LOCAL_DEV_CFG	hpStructDef.h	/^typedef struct _HP_PIB_LOCAL_DEV_CFG$/;"	s
+_HP_PIB_LOCAL_DEV_CFG_LC	hpStructDef.h	/^typedef struct _HP_PIB_LOCAL_DEV_CFG_LC$/;"	s
+_HP_PIB_VER_HEAD	hpStructDef.h	/^typedef struct _HP_PIB_VER_HEAD$/;"	s
+_HP_PIB_VER_HEAD_7500	hpStructDef.h	/^typedef struct _HP_PIB_VER_HEAD_7500$/;"	s
+_HP_PIB_VER_HEAD_LC	hpStructDef.h	/^typedef struct _HP_PIB_VER_HEAD_LC$/;"	s
+_HP_PTS_NVM_CNF	hpStructDef.h	/^typedef struct _HP_PTS_NVM_CNF$/;"	s
+_HP_PTS_NVM_REQ	hpStructDef.h	/^typedef struct _HP_PTS_NVM_REQ$/;"	s
+_HP_QCA_MDIO_OP_ST	hpStructDef.h	/^typedef struct _HP_QCA_MDIO_OP_ST$/;"	s
+_HP_QCA_MME_HEADER	hpStructDef.h	/^typedef struct _HP_QCA_MME_HEADER$/;"	s
+_HP_QCA_MME_HEADER_V1	hpStructDef.h	/^typedef struct _HP_QCA_MME_HEADER_V1$/;"	s
+_HP_QCA_RECOVER_OP_ST	hpStructDef.h	/^typedef struct _HP_QCA_RECOVER_OP_ST$/;"	s
+_HP_RECOVER_PARA	hpAVLib.h	/^typedef struct _HP_RECOVER_PARA$/;"	s
+_HP_RESET_ALL_PARA	hpAVLib.h	/^typedef struct _HP_RESET_ALL_PARA$/;"	s
+_HP_RESTORE_CFG_PARA	hpAVLib.h	/^typedef struct _HP_RESTORE_CFG_PARA$/;"	s
+_HP_RMT_DEV	hpAVLib.h	/^typedef struct _HP_RMT_DEV$/;"	s
+_HP_RMT_DEV_INFO	hpAVLib.h	/^typedef struct _HP_RMT_DEV_INFO$/;"	s
+_HP_SET_ALL_NMK_PARA	hpAVLib.h	/^typedef struct _HP_SET_ALL_NMK_PARA$/;"	s
+_HP_SET_KEY_CNF	hpStructDef.h	/^typedef struct _HP_SET_KEY_CNF$/;"	s
+_HP_STATION	hpStructDef.h	/^typedef struct _HP_STATION$/;"	s
+_HP_STATION_V1	hpStructDef.h	/^typedef struct _HP_STATION_V1$/;"	s
+_HP_SW_VER_CNF	hpStructDef.h	/^typedef struct _HP_SW_VER_CNF$/;"	s
+_HP_VS_MOD_NVM_CNF	hpStructDef.h	/^typedef struct _HP_VS_MOD_NVM_CNF$/;"	s
+_HP_VS_MOD_NVM_REQ	hpStructDef.h	/^typedef struct _HP_VS_MOD_NVM_REQ$/;"	s
+_HP_VS_RD_MOD_CNF	hpStructDef.h	/^typedef struct _HP_VS_RD_MOD_CNF$/;"	s
+_HP_VS_RD_MOD_REQ	hpStructDef.h	/^typedef struct _HP_VS_RD_MOD_REQ$/;"	s
+_HP_VS_WR_MOD_CNF	hpStructDef.h	/^typedef struct _HP_VS_WR_MOD_CNF$/;"	s
+_HP_VS_WR_MOD_REQ	hpStructDef.h	/^typedef struct _HP_VS_WR_MOD_REQ			$/;"	s
+_HP_WRITE_AND_EXECUTE_APPLET_CNF	hpStructDef.h	/^typedef struct _HP_WRITE_AND_EXECUTE_APPLET_CNF$/;"	s
+_HP_WRITE_AND_EXECUTE_APPLET_REQ	hpStructDef.h	/^typedef struct _HP_WRITE_AND_EXECUTE_APPLET_REQ$/;"	s
+_HpAV_Common_Dev_Cfg	hpStructDef.h	/^typedef struct _HpAV_Common_Dev_Cfg$/;"	s
+_PIB_LED_CONFIG_NEW	hpStructDef.h	/^typedef struct _PIB_LED_CONFIG_NEW$/;"	s
+_PLCDEBUG_H_	plcDebug.h	2;"	d
+_PLC_CFG_DATA	hpAVLib.h	/^typedef struct _PLC_CFG_DATA$/;"	s
+_PLC_DEV_BASE	plcApi.h	/^typedef struct _PLC_DEV_BASE {$/;"	s
+_PLC_DEV_CFG	hpAVLib.h	/^typedef struct _PLC_DEV_CFG$/;"	s
+_PLC_DEV_ENTRY	hpAVLib.h	/^typedef struct _PLC_DEV_ENTRY$/;"	s
+_PLC_DEV_INFO	plcApi.h	/^typedef struct _PLC_DEV_INFO {$/;"	s
+_PLC_ETH_INFO	plcApi.h	/^typedef struct _PLC_ETH_INFO {$/;"	s
+_PLC_LOCAL_DEV	plcApi.h	/^typedef struct _PLC_LOCAL_DEV {$/;"	s
+_PLC_PARAM	plcApi.h	/^typedef struct _PLC_PARAM {$/;"	s
+_PLC_QOS_CFG	plcApi.h	/^typedef struct _PLC_QOS_CFG$/;"	s
+_PLC_RECOVER_PARA	plcApi.h	/^typedef struct _PLC_RECOVER_PARA {$/;"	s
+_PLC_RMT_DEV	plcApi.h	/^typedef struct _PLC_RMT_DEV {$/;"	s
+_PLC_RMT_DEV_INFO	plcApi.h	/^typedef struct _PLC_RMT_DEV_INFO {$/;"	s
+_PLC_SET_MAC_INFO	plcApi.h	/^typedef struct _PLC_SET_MAC_INFO {$/;"	s
+_PLC_UPGRADE_PARA	plcApi.h	/^typedef struct _PLC_UPGRADE_PARA {$/;"	s
+__HP_AV_COMMON_H__	hpAVCommon.h	19;"	d
+_clrbits	ifopr.h	27;"	d
+_hpav_pair_pkt	hpStructDef.h	/^typedef struct _hpav_pair_pkt$/;"	s
+_setbits	ifopr.h	26;"	d
+adapter	hpAVLib.h	/^	UINT8 adapter;$/;"	m	struct:__anon1
+adapter	plcApi.h	/^	UINT8			adapter;$/;"	m	struct:_PLC_DEV_BASE
+addNew	hpAVLib.h	/^    BOOL (*addNew)(PLC_DEV_BASE *dev, PLC_DEV_ENTRY *devEntry);$/;"	m	struct:__anon4
+authType	hpStructDef.h	/^	UINT8 authType;$/;"	m	struct:__anon27
+avgRx	hpAVLib.h	/^	UINT16 avgRx;$/;"	m	struct:_HP_RMT_DEV
+avgRx	hpStructDef.h	/^	UINT16 avgRx;$/;"	m	struct:__anon21
+avgRx	hpStructDef.h	/^	UINT8	avgRx;$/;"	m	struct:_HP_STATION
+avgRx	hpStructDef.h	/^        UINT16  avgRx;$/;"	m	struct:_HP_STATION_V1
+avgRx	plcApi.h	/^    UINT16          avgRx;$/;"	m	struct:_PLC_RMT_DEV
+avgTx	hpAVLib.h	/^	UINT16 avgTx;$/;"	m	struct:_HP_RMT_DEV
+avgTx	hpStructDef.h	/^	UINT16 avgTx;$/;"	m	struct:__anon21
+avgTx	hpStructDef.h	/^	UINT8	avgTx;$/;"	m	struct:_HP_STATION
+avgTx	hpStructDef.h	/^        UINT16  avgTx;$/;"	m	struct:_HP_STATION_V1
+avgTx	plcApi.h	/^    UINT16          avgTx;$/;"	m	struct:_PLC_RMT_DEV
+bandId	hpStructDef.h	/^	UINT8 bandId;$/;"	m	struct:__anon28
+block	SHA256.h	/^	UINT8 block [64];$/;"	m	struct:sha256
+block	hpStructDef.h	/^	UINT16 block;$/;"	m	struct:__anon13
+brigeMac	hpStructDef.h	/^	UINT8	brigeMac[6];$/;"	m	struct:_HP_STATION
+brigeMac	hpStructDef.h	/^        UINT8   brigeMac[6];$/;"	m	struct:_HP_STATION_V1
+cCoSelection	hpStructDef.h	/^	UINT8 cCoSelection;$/;"	m	struct:_HP_PIB_LOCAL_DEV_CFG
+cCoSelection	hpStructDef.h	/^	UINT8 cCoSelection;$/;"	m	struct:_HP_PIB_LOCAL_DEV_CFG_LC
+chipVer	hpStructDef.h	/^	UINT32 chipVer;$/;"	m	struct:__anon18
+chipVersion	hpStructDef.h	/^	UINT32 chipVersion;$/;"	m	struct:__anon24
+connectInfo	hpStructDef.h	/^	UINT8 connectInfo;$/;"	m	struct:__anon19
+cooMacAddr	hpStructDef.h	/^	UINT8		cooMacAddr[6];$/;"	m	struct:__anon29
+cooMacAddr	hpStructDef.h	/^        UINT8           cooMacAddr[6];$/;"	m	struct:_HP_NW_INFO_CNF_V1
+cooTei	hpStructDef.h	/^	UINT8		cooTei;$/;"	m	struct:__anon29
+cooTei	hpStructDef.h	/^        UINT8           cooTei;$/;"	m	struct:_HP_NW_INFO_CNF_V1
+count	SHA256.h	/^	UINT32 count [2];$/;"	m	struct:sha256
+dak	hpStructDef.h	/^	UINT8 *dak;$/;"	m	struct:__anon11
+dak	hpStructDef.h	/^	UINT8 dak[16];$/;"	m	struct:_HP_PIB_LOCAL_DEV_CFG
+dak	hpStructDef.h	/^	UINT8 dak[16];$/;"	m	struct:_HP_PIB_LOCAL_DEV_CFG_LC
+dak	hpStructDef.h	/^	UINT8 dak[16];$/;"	m	struct:_HpAV_Common_Dev_Cfg
+dak	hpStructDef.h	/^	UINT8 dak[16];$/;"	m	struct:__anon20
+dak	hpStructDef.h	/^	UINT8 dak[HP_DAK_LEN];$/;"	m	struct:__anon17
+dak	plcApi.h	/^	UINT8	dak[PLC_DAK_LEN];$/;"	m	struct:_PLC_DEV_INFO
+data	hpAVLib.h	/^	UINT8 data[MAX_HP_PACKET_SIZE];$/;"	m	struct:__anon1
+data	hpStructDef.h	/^	UINT16 data;$/;"	m	struct:_HP_MDIO_COMMAND_CNF
+data	hpStructDef.h	/^	UINT16 data;$/;"	m	struct:_HP_MDIO_COMMAND_REQ
+data	hpStructDef.h	/^	UINT16 data;$/;"	m	struct:_HP_QCA_MDIO_OP_ST
+data	hpStructDef.h	/^	UINT8 *data;$/;"	m	struct:__anon13
+data	hpStructDef.h	/^	UINT8 *data;$/;"	m	struct:__anon16
+data	hpStructDef.h	/^	UINT8 data[38];$/;"	m	struct:_HP_MISTERY_REQ
+data	plcApi.h	/^	UINT8	*data;$/;"	m	struct:_PLC_PARAM
+debug	plcDebug.h	10;"	d
+debug	plcDebug.h	17;"	d
+debug	plcDebug.h	19;"	d
+debug	plcDebug.h	8;"	d
+dev	hpAVLib.h	/^	PLC_DEV_BASE dev;$/;"	m	struct:_HP_RMT_DEV
+dev	hpStructDef.h	/^	PLC_DEV_BASE dev;$/;"	m	struct:__anon12
+dev	plcApi.h	/^    PLC_DEV_BASE    dev;$/;"	m	struct:_PLC_LOCAL_DEV
+dev	plcApi.h	/^    PLC_DEV_BASE    dev;$/;"	m	struct:_PLC_RMT_DEV
+devId	plcApi.h	/^	UINT8			devId;$/;"	m	struct:_PLC_DEV_BASE
+devInfo	plcApi.h	/^    PLC_DEV_INFO	devInfo;$/;"	m	struct:_PLC_LOCAL_DEV
+devName	hpAVLib.h	/^	UINT8	devName[PLC_DEV_NAME_LEN + 1];$/;"	m	struct:_PLC_DEV_ENTRY
+devPwd	hpAVLib.h	/^	UINT8	devPwd[PLC_PWD_LEN + 1];$/;"	m	struct:_PLC_DEV_ENTRY
+deviceID	hpStructDef.h	/^	UINT8	deviceID;$/;"	m	struct:_HP_SW_VER_CNF
+devsEntry	hpAVLib.h	/^	PLC_DEV_ENTRY 		devsEntry[PLC_MAX_DEV_NUM];$/;"	m	struct:_PLC_DEV_CFG
+direction	hpStructDef.h	/^	UINT8 direction;$/;"	m	struct:__anon19
+dstMac	hpStructDef.h	/^	UINT8 dstMac[MAC_ADDR_LEN];$/;"	m	struct:_HP_BCM_MME_HEADER
+dstMac	hpStructDef.h	/^	UINT8 dstMac[MAC_ADDR_LEN];$/;"	m	struct:_HP_PACKET_ID
+dstMac	hpStructDef.h	/^	UINT8 dstMac[MAC_ADDR_LEN];$/;"	m	struct:_HP_QCA_MME_HEADER
+dstMac	hpStructDef.h	/^	UINT8 dstMac[MAC_ADDR_LEN];$/;"	m	struct:_HP_QCA_MME_HEADER_V1
+dstMac	hpStructDef.h	/^	UINT8 dstMac[MAC_ADDR_LEN];$/;"	m	struct:_hpav_pair_pkt
+duplex	plcApi.h	/^	UINT8 duplex;  \/* 0:half, 1:full, 2:unknown  *\/$/;"	m	struct:_PLC_ETH_INFO
+eAR6405Device	hpStructDef.h	/^        eAR6405Device   = 0x05,$/;"	e	enum:__anon7
+eAR7420Device	hpStructDef.h	/^        eAR7420Device   = 0x20,$/;"	e	enum:__anon7
+eAR7450Device	hpStructDef.h	/^        eAR7450Device   = 0x06,$/;"	e	enum:__anon7
+eAR7500Device	hpStructDef.h	/^        eAR7500Device   = 0x30,$/;"	e	enum:__anon7
+eBCM60333Device	hpStructDef.h	/^	eBCM60333Device = 0x4F,$/;"	e	enum:__anon8
+eBCM60335Device	hpStructDef.h	/^	eBCM60335Device = 0x5A,$/;"	e	enum:__anon8
+eBCM60500Device	hpStructDef.h	/^	eBCM60500Device = 0x4E,$/;"	e	enum:__anon8
+eDuplex	hpStructDef.h	/^	UINT8 eDuplex;$/;"	m	struct:_HP_ENET_SETTINGS_CNF
+eFlowControl	hpStructDef.h	/^	UINT8 eFlowControl;$/;"	m	struct:_HP_ENET_SETTINGS_CNF
+eHST_IND_FAC	hpStructDef.h	/^	eHST_IND_FAC    = 0x05,$/;"	e	enum:__anon10
+eHST_IND_FW	hpStructDef.h	/^	eHST_IND_FW     = 0x00,$/;"	e	enum:__anon10
+eHST_IND_MCTL	hpStructDef.h	/^	eHST_IND_MCTL   = 0x04,$/;"	e	enum:__anon10
+eHST_IND_UPDATE	hpStructDef.h	/^	eHST_IND_UPDATE = 0x02,$/;"	e	enum:__anon10
+eINT6000Device	hpStructDef.h	/^        eINT6000Device  = 0x01,$/;"	e	enum:__anon7
+eINT6300Device	hpStructDef.h	/^        eINT6300Device  = 0x02,$/;"	e	enum:__anon7
+eINT6400Device	hpStructDef.h	/^        eINT6400Device  = 0x03,$/;"	e	enum:__anon7
+eINT7400Device	hpStructDef.h	/^        eINT7400Device  = 0x04,$/;"	e	enum:__anon7
+eLinkStatus	hpStructDef.h	/^	UINT8 eLinkStatus;\/*2-connect, 1-not connect*\/$/;"	m	struct:_HP_ENET_SETTINGS_CNF
+eMODOP_CMNVM	hpStructDef.h	/^	eMODOP_CMNVM 			= 0x12,$/;"	e	enum:__anon9
+eMODOP_NOTUSE	hpStructDef.h	/^	eMODOP_NOTUSE		= 0xff,$/;"	e	enum:__anon9
+eMODOP_RDMEM	hpStructDef.h	/^	eMODOP_RDMEM 			= 0x00,$/;"	e	enum:__anon9
+eMODOP_RDNVM	hpStructDef.h	/^	eMODOP_RDNVM 			= 0x01,$/;"	e	enum:__anon9
+eMODOP_WRMOD	hpStructDef.h	/^	eMODOP_WRMOD 		= 0x11,$/;"	e	enum:__anon9
+eMODOP_WRSESSION	hpStructDef.h	/^	eMODOP_WRSESSION 	= 0x10,$/;"	e	enum:__anon9
+eQCA6410Device	hpStructDef.h	/^        eQCA6410Device  = 0x21,$/;"	e	enum:__anon7
+eSpeed	hpStructDef.h	/^	UINT8 eSpeed;$/;"	m	struct:_HP_ENET_SETTINGS_CNF
+eks	hpStructDef.h	/^	UINT8	eks;$/;"	m	struct:__anon30
+errbuf	ifopr.h	/^	char	errbuf[IFOPR_ERRBUF_SIZE];$/;"	m	struct:IFOPR_HANDLE
+etherType	hpStructDef.h	/^	UINT16 etherType;$/;"	m	struct:_HP_BCM_MME_HEADER
+etherType	hpStructDef.h	/^	UINT16 etherType;$/;"	m	struct:_HP_PACKET_ID
+etherType	hpStructDef.h	/^	UINT16 etherType;$/;"	m	struct:_HP_QCA_MME_HEADER
+etherType	hpStructDef.h	/^	UINT16 etherType;$/;"	m	struct:_HP_QCA_MME_HEADER_V1
+etherType	hpStructDef.h	/^	UINT16 etherType;$/;"	m	struct:_hpav_pair_pkt
+extra	SHA256.h	/^	UINT8 extra [64];$/;"	m	struct:sha256
+fileName	hpStructDef.h	/^	UINT8 fileName[HP_UPG_FILE_NAME_MAX_LEN];$/;"	m	struct:__anon16
+flash_model	hpStructDef.h	/^	UINT32 flash_model;$/;"	m	struct:__anon24
+fmi	hpStructDef.h	/^	UINT8 fmi;$/;"	m	struct:_HP_BCM_MME_HEADER
+fmsn	hpStructDef.h	/^	UINT8 fmsn;$/;"	m	struct:_HP_BCM_MME_HEADER
+fwVersion	hpStructDef.h	/^	UINT32 fwVersion;$/;"	m	struct:__anon24
+fw_boot_msg	hpStructDef.h	/^	char *fw_boot_msg;$/;"	m	struct:__anon24
+fw_boot_msg_len	hpStructDef.h	/^	UINT8 fw_boot_msg_len;$/;"	m	struct:__anon24
+fw_features	hpStructDef.h	/^	UINT32 fw_features;$/;"	m	struct:__anon24
+fw_version	hpStructDef.h	/^	UINT32 fw_version;$/;"	m	struct:__anon24
+getDak	hpAVLib.h	/^	BOOL (*getDak)(PLC_DEV_BASE *dev, UINT8 *dak);$/;"	m	struct:__anon4
+getDevId	hpAVLib.h	/^	BOOL (*getDevId)(PLC_DEV_BASE *dev, UINT8 *devId);$/;"	m	struct:__anon4
+getDevNmk	hpAVLib.h	/^    BOOL (*getDevNmk)(PLC_DEV_BASE *dev, UINT8 *nmk);$/;"	m	struct:__anon4
+getDevSwVer	hpAVLib.h	/^	BOOL (*getDevSwVer) (PLC_DEV_BASE *dev, UINT8 *swVer);$/;"	m	struct:__anon4
+getEthSts	hpAVLib.h	/^	BOOL (*getEthSts)(PLC_DEV_BASE *dev, PLC_ETH_INFO *ethInfo);$/;"	m	struct:__anon4
+getLed	hpAVLib.h	/^	BOOL (*getLed)(PLC_DEV_BASE *dev, BOOL *isLedOn);$/;"	m	struct:__anon4
+getLocalDevCfg	hpAVLib.h	/^	BOOL (*getLocalDevCfg)(PLC_DEV_BASE *dev, HP_DEV_INFO *devInfo);$/;"	m	struct:__anon4
+getManufactureHfid	hpAVLib.h	/^	BOOL (*getManufactureHfid)(PLC_DEV_BASE *dev, UINT8 *hfid);$/;"	m	struct:__anon4
+getNwInfo	hpAVLib.h	/^    BOOL (*getNwInfo)(PLC_DEV_BASE *dev, HP_RMT_DEV_INFO *rmtDevInfo);$/;"	m	struct:__anon4
+getParam	hpAVLib.h	/^	BOOL (*getParam)(PLC_DEV_BASE *dev, UINT8 *param, UINT32 *paramSize);$/;"	m	struct:__anon4
+getPowerSave	hpAVLib.h	/^	BOOL (*getPowerSave)(PLC_DEV_BASE *dev, BOOL *isPowerSave, UINT32 *timeOut);$/;"	m	struct:__anon4
+getQosData	hpAVLib.h	/^    BOOL (*getQosData)(PLC_DEV_BASE *dev, PLC_QOS_CFG *qosData);$/;"	m	struct:__anon4
+getTransMode	hpAVLib.h	/^	BOOL (*getTransMode)(PLC_DEV_BASE *dev, BOOL *isMIMO);$/;"	m	struct:__anon4
+getUserHfid	hpAVLib.h	/^	BOOL (*getUserHfid)(PLC_DEV_BASE *dev, UINT8 *hfid);$/;"	m	struct:__anon4
+ggl	hpAVLib.h	/^	UINT8 *ggl;$/;"	m	struct:_HP_RECOVER_PARA
+ggl	plcApi.h	/^    UINT8   *ggl;$/;"	m	struct:_PLC_RECOVER_PARA
+ggl	plcApi.h	/^    UINT8   *ggl;$/;"	m	struct:_PLC_UPGRADE_PARA
+gglLen	hpAVLib.h	/^	UINT32 gglLen;$/;"	m	struct:_HP_RECOVER_PARA
+gglLen	plcApi.h	/^    UINT32  gglLen;$/;"	m	struct:_PLC_RECOVER_PARA
+gglLen	plcApi.h	/^    UINT32  gglLen;$/;"	m	struct:_PLC_UPGRADE_PARA
+hfid	plcApi.h	/^	UINT8	hfid[PLC_HFID_LEN];$/;"	m	struct:_PLC_DEV_INFO
+hpAVSwap16	hpAVCommon.h	39;"	d
+hpAVSwap16	hpAVCommon.h	49;"	d
+hpAVSwap32	hpAVCommon.h	40;"	d
+hpAVSwap32	hpAVCommon.h	50;"	d
+hwVersion	hpStructDef.h	/^	UINT32 hwVersion;$/;"	m	struct:__anon24
+ifaddr	ifopr.h	/^   	unsigned char 	ifaddr[IF_ADDR_LEN];		\/* interface hardware addr*\/$/;"	m	struct:IFOPR_IF
+ifindex	ifopr.h	/^	int				ifindex;					\/* interface index *\/$/;"	m	struct:IFOPR_IF
+ifinfo	ifopr.h	/^	struct 	IFOPR_IF *	ifinfo;$/;"	m	struct:IFOPR_HANDLE	typeref:struct:IFOPR_HANDLE::IFOPR_IF
+ifinfo	ifopr.h	/^	struct IFOPR_IF *		ifinfo;$/;"	m	struct:IFOPR_IF_LIST	typeref:struct:IFOPR_IF_LIST::IFOPR_IF
+ifname	ifopr.h	/^	char 			ifname[IFOPR_NAME_SIZE];	\/* interface name *\/$/;"	m	struct:IFOPR_IF
+isActive	hpAVLib.h	/^	UINT8 isActive;				\/* represents if device is active. 1-YES, 0-NO *\/$/;"	m	struct:_HP_RMT_DEV
+isLink	plcApi.h	/^	BOOL isLink;$/;"	m	struct:_PLC_ETH_INFO
+isReadPibOver	hpStructDef.h	/^	UINT8 isReadPibOver;$/;"	m	struct:__anon20
+isWriteModOver	hpStructDef.h	/^	BOOL isWriteModOver;$/;"	m	struct:_HP_QCA_RECOVER_OP_ST
+isWriteNvmOver	hpStructDef.h	/^	UINT8 isWriteNvmOver;$/;"	m	struct:__anon20
+isWritePibOver	hpStructDef.h	/^	UINT8 isWritePibOver;$/;"	m	struct:__anon20
+ledConfig	hpStructDef.h	/^	PIB_LED_CONFIG_NEW ledConfig;$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+ledConfig	hpStructDef.h	/^	PIB_LED_CONFIG_NEW ledConfig;$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+len	plcApi.h	/^	UINT32 	len;$/;"	m	struct:_PLC_PARAM
+length	hpStructDef.h	/^	UINT16 length;$/;"	m	struct:__anon13
+length	hpStructDef.h	/^	UINT8	length;$/;"	m	struct:_HP_SW_VER_CNF
+level	hpStructDef.h	/^	UINT8 level;$/;"	m	struct:__anon17
+mAVSTreamPri	plcApi.h	/^	UINT8	mAVSTreamPri;$/;"	m	struct:_PLC_QOS_CFG
+mAVSTreamPriority	hpStructDef.h	/^	UINT8	mAVSTreamPriority;$/;"	m	struct:_HP_PIB_VER_HEAD
+mAVSTreamPriority	hpStructDef.h	/^	UINT8	mAVSTreamPriority;$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mAVSTreamPriority	hpStructDef.h	/^	UINT8	mAVSTreamPriority;$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mAbsoluteStartAddr	hpStructDef.h	/^	UINT32 mAbsoluteStartAddr;$/;"	m	struct:_HP_WRITE_AND_EXECUTE_APPLET_CNF
+mAllowedMemTypes	hpStructDef.h	/^	UINT8  mAllowedMemTypes[8];$/;"	m	struct:_HP_WRITE_AND_EXECUTE_APPLET_CNF
+mAllowedMemTypes	hpStructDef.h	/^	UINT8  mAllowedMemTypes[8];$/;"	m	struct:_HP_WRITE_AND_EXECUTE_APPLET_REQ
+mAuthSimpleConnectEnable	hpStructDef.h	/^	UINT8 	mAuthSimpleConnectEnable;$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mAuthSimpleConnectEnable	hpStructDef.h	/^	UINT8 	mAuthSimpleConnectEnable;$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mAuthUpdateLvl	hpStructDef.h	/^	UINT8 	mAuthUpdateLvl;$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mAuthUpdateLvl	hpStructDef.h	/^	UINT8 	mAuthUpdateLvl;$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mCheckSum32	hpStructDef.h	/^	UINT32	mCheckSum32;$/;"	m	struct:_HP_PIB_VER_HEAD
+mChecksum	hpStructDef.h	/^	UINT32 mChecksum;$/;"	m	struct:_HP_WRITE_AND_EXECUTE_APPLET_CNF
+mChecksum	hpStructDef.h	/^	UINT32 mChecksum;$/;"	m	struct:_HP_WRITE_AND_EXECUTE_APPLET_REQ
+mChkSum	hpStructDef.h	/^	UINT32	mChkSum;$/;"	m	struct:_HP_VS_RD_MOD_CNF
+mChkSum	hpStructDef.h	/^	UINT32	mChkSum;$/;"	m	struct:_HP_VS_WR_MOD_REQ
+mClientSessionID	hpStructDef.h	/^	UINT32 mClientSessionID;$/;"	m	struct:_HP_WRITE_AND_EXECUTE_APPLET_CNF
+mClientSessionID	hpStructDef.h	/^	UINT32 mClientSessionID;$/;"	m	struct:_HP_WRITE_AND_EXECUTE_APPLET_REQ
+mCoExSel	hpStructDef.h	/^	UINT8 	mCoExSel;$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mCoExSel	hpStructDef.h	/^	UINT8 	mCoExSel;$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mCommitCode	hpStructDef.h	/^	UINT32 	mCommitCode;	\/* 0x1, 0x2, 0x3, not so sure *\/$/;"	m	struct:_HP_MOD_OP_COMMIT_REQ
+mCommitCode	hpStructDef.h	/^	UINT32 	mCommitCode;$/;"	m	struct:_HP_MOD_OP_COMMIT_CONF
+mCurrPartAbsoluteAddr	hpStructDef.h	/^	UINT32 mCurrPartAbsoluteAddr;$/;"	m	struct:_HP_WRITE_AND_EXECUTE_APPLET_CNF
+mCurrPartDestAddr	hpStructDef.h	/^	UINT32 mCurrPartDestAddr;$/;"	m	struct:_HP_WRITE_AND_EXECUTE_APPLET_CNF
+mCurrPartDestAddr	hpStructDef.h	/^	UINT32 mCurrPartDestAddr;$/;"	m	struct:_HP_WRITE_AND_EXECUTE_APPLET_REQ
+mCurrPartLength	hpStructDef.h	/^	UINT32 mCurrPartLength;$/;"	m	struct:_HP_WRITE_AND_EXECUTE_APPLET_CNF
+mCurrPartLength	hpStructDef.h	/^	UINT32 mCurrPartLength;$/;"	m	struct:_HP_WRITE_AND_EXECUTE_APPLET_REQ
+mCurrentDAK	hpStructDef.h	/^	UINT8 mCurrentDAK[16];$/;"	m	struct:_HP_PTS_NVM_REQ
+mCustomerRsvd	hpStructDef.h	/^	UINT8 	mCustomerRsvd[64];$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mCustomerRsvd	hpStructDef.h	/^	UINT8 	mCustomerRsvd[64];$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mData	hpStructDef.h	/^	UINT8	mData[MAX_HP_VS_MOD_DATA_LEN];$/;"	m	struct:_HP_VS_RD_MOD_CNF
+mData	hpStructDef.h	/^	UINT8 	mData[1400];		\/* 1489 - 24, for pib or nvm *\/$/;"	m	struct:_HP_MOD_OP_WR_REQ
+mData	hpStructDef.h	/^	UINT8 	mData[1466];	\/* 1482 - 16 = 1466 *\/$/;"	m	struct:_HP_MOD_OP_RD_CONF
+mData	hpStructDef.h	/^	UINT8 	mData[1482];	\/* 1494 - 12 *\/$/;"	m	struct:_HP_MOD_OP_CONF_HEADER
+mData	hpStructDef.h	/^	UINT8  mData[1400];$/;"	m	struct:_HP_WRITE_AND_EXECUTE_APPLET_REQ
+mDataLen	hpStructDef.h	/^	UINT16 	mDataLen;					$/;"	m	struct:_HP_MOD_OP_WR_REQ
+mDataLen	hpStructDef.h	/^	UINT16 	mDataLen;					\/* Number of bytes to transfer (1-1400)*\/$/;"	m	struct:_HP_MOD_OP_RD_REQ
+mDataLen	hpStructDef.h	/^	UINT16 	mDataLen;$/;"	m	struct:_HP_MOD_OP_RD_CONF
+mDataLen	hpStructDef.h	/^	UINT16 	mDataLen;$/;"	m	struct:_HP_MOD_OP_WR_CONF
+mEnableTOS	plcApi.h	/^	UINT8	mEnableTOS;$/;"	m	struct:_PLC_QOS_CFG
+mEnableTOSOver	hpStructDef.h	/^	UINT8	mEnableTOSOver;$/;"	m	struct:_HP_PIB_VER_HEAD
+mEnableTOSOver	hpStructDef.h	/^	UINT8	mEnableTOSOver;$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mEnableTOSOver	hpStructDef.h	/^	UINT8	mEnableTOSOver;$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mEnableVLAN	plcApi.h	/^	UINT8	mEnableVLAN;$/;"	m	struct:_PLC_QOS_CFG
+mEnableVLANOver	hpStructDef.h	/^	UINT8	mEnableVLANOver;$/;"	m	struct:_HP_PIB_VER_HEAD
+mEnableVLANOver	hpStructDef.h	/^	UINT8	mEnableVLANOver;$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mEnableVLANOver	hpStructDef.h	/^	UINT8	mEnableVLANOver;$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mEntryPoint	hpStructDef.h	/^	UINT32	mEntryPoint;$/;"	m	struct:_HP_NVM_HEADER
+mErrRecCode	hpStructDef.h	/^	UINT16 	mErrRecCode;$/;"	m	struct:_HP_MOD_OP_CONF_HEADER
+mErrRecCode	hpStructDef.h	/^	UINT16 	mErrRecCode;$/;"	m	struct:_HP_MOD_STATUS_CONF
+mErrRecCode	hpStructDef.h	/^	UINT16 mErrRecCode;$/;"	m	struct:_HP_MISTERY_CNF
+mFWMajorVersion	hpStructDef.h	/^	UINT8 	mFWMajorVersion;$/;"	m	struct:_HP_PIB_VER_HEAD
+mFlags	hpStructDef.h	/^	UINT32 mFlags;$/;"	m	struct:_HP_WRITE_AND_EXECUTE_APPLET_CNF
+mFlags	hpStructDef.h	/^	UINT32 mFlags;$/;"	m	struct:_HP_WRITE_AND_EXECUTE_APPLET_REQ
+mHeaderCheckSum	hpStructDef.h	/^	UINT32	mHeaderCheckSum;$/;"	m	struct:_HP_NVM_HEADER
+mHeaderVersion	hpStructDef.h	/^	UINT32	mHeaderVersion;$/;"	m	struct:_HP_NVM_HEADER
+mIGMPCfg	hpStructDef.h	/^	UINT8	mIGMPCfg[32];$/;"	m	struct:_HP_PIB_VER_HEAD
+mIGMPPri	plcApi.h	/^	UINT8	mIGMPPri;$/;"	m	struct:_PLC_QOS_CFG
+mIGMPPriority	hpStructDef.h	/^	UINT8	mIGMPPriority;$/;"	m	struct:_HP_PIB_VER_HEAD
+mIGMPPriority	hpStructDef.h	/^	UINT8	mIGMPPriority;$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mIGMPPriority	hpStructDef.h	/^	UINT8	mIGMPPriority;$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mImageAddr	hpStructDef.h	/^	UINT32	mImageAddr;$/;"	m	struct:_HP_NVM_HEADER
+mImageCheckSum	hpStructDef.h	/^	UINT32	mImageCheckSum;$/;"	m	struct:_HP_NVM_HEADER
+mImageLength	hpStructDef.h	/^	UINT32	mImageLength;$/;"	m	struct:_HP_NVM_HEADER
+mImageRomaddr	hpStructDef.h	/^	UINT32	mImageRomaddr;$/;"	m	struct:_HP_NVM_HEADER
+mInterfaceCfg	hpStructDef.h	/^	UINT8	mInterfaceCfg[96];$/;"	m	struct:_HP_PIB_VER_HEAD
+mLength	hpStructDef.h	/^	UINT16	mLength;						\/* Number of bytes to transfer(1-1024) *\/$/;"	m	struct:_HP_VS_WR_MOD_REQ
+mLength	hpStructDef.h	/^	UINT16	mLength;						\/* Number of bytes transferred(1-1024)*\/$/;"	m	struct:_HP_VS_WR_MOD_CNF
+mLength	hpStructDef.h	/^	UINT16	mLength;$/;"	m	struct:_HP_VS_RD_MOD_CNF
+mLength	hpStructDef.h	/^	UINT16	mLength;$/;"	m	struct:_HP_VS_RD_MOD_REQ
+mLocalDevice	hpStructDef.h	/^	HP_PIB_LOCAL_DEV_CFG	mLocalDevice;$/;"	m	struct:_HP_PIB_VER_HEAD
+mLocalDevice	hpStructDef.h	/^	HP_PIB_LOCAL_DEV_CFG_LC mLocalDevice;$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mLocalDevice	hpStructDef.h	/^	HP_PIB_LOCAL_DEV_CFG_LC mLocalDevice;$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mMStatus	hpStructDef.h	/^	UINT16 	mMStatus;		\/* 0x00 = Success *\/	$/;"	m	struct:_HP_MOD_OP_CONF_HEADER
+mManiHeader	hpStructDef.h	/^	UINT8 	mManiHeader[0x3c0];$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mManiHeader	hpStructDef.h	/^	UINT8 	mManiHeader[0x3c0];$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mMaxFramesPerSec	hpStructDef.h	/^	UINT8 	mMaxFramesPerSec[4];$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mMaxFramesPerSec	hpStructDef.h	/^	UINT8 	mMaxFramesPerSec[4];$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mMcastPri	plcApi.h	/^	UINT8	mMcastPri;$/;"	m	struct:_PLC_QOS_CFG
+mMcastPriority	hpStructDef.h	/^	UINT8	mMcastPriority;$/;"	m	struct:_HP_PIB_VER_HEAD
+mMcastPriority	hpStructDef.h	/^	UINT8	mMcastPriority;$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mMcastPriority	hpStructDef.h	/^	UINT8	mMcastPriority;$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mMoDuleID	hpStructDef.h	/^	UINT8	mMoDuleID;$/;"	m	struct:_HP_VS_MOD_NVM_CNF
+mMoDuleID	hpStructDef.h	/^	UINT8	mMoDuleID;$/;"	m	struct:_HP_VS_RD_MOD_CNF
+mModChksum	hpStructDef.h	/^	UINT32 	mModChksum;$/;"	m	struct:_HP_MOD_START_WR_MOD
+mModId	hpStructDef.h	/^	UINT16 	mModId;$/;"	m	struct:_HP_MOD_OP_RD_CONF
+mModId	hpStructDef.h	/^	UINT16 	mModId;$/;"	m	struct:_HP_MOD_OP_RD_REQ
+mModId	hpStructDef.h	/^	UINT16 	mModId;$/;"	m	struct:_HP_MOD_OP_WR_CONF
+mModId	hpStructDef.h	/^	UINT16 	mModId;$/;"	m	struct:_HP_MOD_OP_WR_REQ
+mModId	hpStructDef.h	/^	UINT16 	mModId;$/;"	m	struct:_HP_MOD_START_WR_MOD
+mModIdx	hpStructDef.h	/^	UINT8 	mModIdx;$/;"	m	struct:_HP_MOD_OP_WR_CONF
+mModIdx	hpStructDef.h	/^	UINT8 	mModIdx;$/;"	m	struct:_HP_MOD_OP_WR_REQ
+mModLen	hpStructDef.h	/^	UINT32 	mModLen;					\/* Number of bytes transferred (1-1400)*\/$/;"	m	struct:_HP_MOD_START_WR_MOD
+mModOp	hpStructDef.h	/^	UINT16 	mModOp;			\/* Module Operation Id *\/$/;"	m	struct:_HP_MOD_OP_REQ_HEADER
+mModOp	hpStructDef.h	/^	UINT16 	mModOp;$/;"	m	struct:_HP_MOD_OP_CONF_HEADER
+mModOpDataLen	hpStructDef.h	/^	UINT16	mModOpDataLen;$/;"	m	struct:_HP_MOD_OP_RD_REQ
+mModOpDataLen	hpStructDef.h	/^	UINT16 	mModOpDataLen;$/;"	m	struct:_HP_MOD_OP_COMMIT_CONF
+mModOpDataLen	hpStructDef.h	/^	UINT16 	mModOpDataLen;$/;"	m	struct:_HP_MOD_OP_COMMIT_REQ
+mModOpDataLen	hpStructDef.h	/^	UINT16 	mModOpDataLen;$/;"	m	struct:_HP_MOD_OP_RD_CONF
+mModOpDataLen	hpStructDef.h	/^	UINT16 	mModOpDataLen;$/;"	m	struct:_HP_MOD_OP_START_WR_SESSION_REQ
+mModOpDataLen	hpStructDef.h	/^	UINT16 	mModOpDataLen;$/;"	m	struct:_HP_MOD_OP_WR_CONF
+mModOpDataLen	hpStructDef.h	/^	UINT16 	mModOpDataLen;$/;"	m	struct:_HP_MOD_OP_WR_REQ
+mModOpDataLen	hpStructDef.h	/^	UINT16 	mModOpDataLen;$/;"	m	struct:_HP_MOD_OP_WR_SESSION_CONF
+mModStatus	hpStructDef.h	/^	UINT16 	mModStatus;$/;"	m	struct:_HP_MOD_STATUS_CONF
+mModSubId	hpStructDef.h	/^	UINT16 	mModSubId;$/;"	m	struct:_HP_MOD_OP_RD_CONF
+mModSubId	hpStructDef.h	/^	UINT16 	mModSubId;$/;"	m	struct:_HP_MOD_OP_RD_REQ
+mModSubId	hpStructDef.h	/^	UINT16 	mModSubId;$/;"	m	struct:_HP_MOD_OP_WR_CONF
+mModSubId	hpStructDef.h	/^	UINT16 	mModSubId;$/;"	m	struct:_HP_MOD_OP_WR_REQ
+mModSubId	hpStructDef.h	/^	UINT16 	mModSubId;$/;"	m	struct:_HP_MOD_START_WR_MOD
+mMods	hpStructDef.h	/^	HP_MOD_START_WR_MOD	mMods[10];		\/* most 10 modules support *\/$/;"	m	struct:_HP_MOD_OP_START_WR_SESSION_REQ
+mMods	hpStructDef.h	/^	HP_MOD_STATUS_CONF	mMods[10];	\/* same as write mod number *\/$/;"	m	struct:_HP_MOD_OP_COMMIT_CONF
+mMods	hpStructDef.h	/^	HP_MOD_STATUS_CONF 	mMods[10];	\/* same as write mod number  *\/$/;"	m	struct:_HP_MOD_OP_WR_SESSION_CONF
+mModuleID	hpStructDef.h	/^	UINT8	mModuleID;$/;"	m	struct:_HP_VS_MOD_NVM_REQ
+mModuleID	hpStructDef.h	/^	UINT8	mModuleID;$/;"	m	struct:_HP_VS_RD_MOD_REQ
+mModuleID	hpStructDef.h	/^	UINT8	mModuleID;$/;"	m	struct:_HP_VS_WR_MOD_CNF
+mModuleID	hpStructDef.h	/^	UINT8	mModuleID;$/;"	m	struct:_HP_VS_WR_MOD_REQ
+mModuleID	hpStructDef.h	/^	UINT8 mModuleID;$/;"	m	struct:_HP_PTS_NVM_CNF
+mModuleID	hpStructDef.h	/^	UINT8 mModuleID;$/;"	m	struct:_HP_PTS_NVM_REQ
+mNVMAuthKey	hpStructDef.h	/^	UINT8 	mNVMAuthKey[16];$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mNVMAuthKey	hpStructDef.h	/^	UINT8 	mNVMAuthKey[16];$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mNetworCfg	hpStructDef.h	/^	UINT8	mNetworCfg[128];$/;"	m	struct:_HP_PIB_VER_HEAD
+mNextHeader	hpStructDef.h	/^	UINT32	mNextHeader;$/;"	m	struct:_HP_NVM_HEADER
+mNumMod	hpStructDef.h	/^	UINT8 	mNumMod;$/;"	m	struct:_HP_MOD_OP_START_WR_SESSION_REQ
+mNumMods	hpStructDef.h	/^	UINT8 	mNumMods;$/;"	m	struct:_HP_MOD_OP_COMMIT_CONF
+mNumMods	hpStructDef.h	/^	UINT8 	mNumMods;$/;"	m	struct:_HP_MOD_OP_WR_SESSION_CONF
+mNumOpData	hpStructDef.h	/^	UINT8 	mNumOpData;		\/* Set to 1 *\/$/;"	m	struct:_HP_MOD_OP_REQ_HEADER
+mNumOpData	hpStructDef.h	/^	UINT8 	mNumOpData;$/;"	m	struct:_HP_MOD_OP_CONF_HEADER
+mNumPorts	hpStructDef.h	/^	UINT8 	mNumPorts;$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mNumPorts	hpStructDef.h	/^	UINT8 	mNumPorts;$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mOffset	hpStructDef.h	/^	UINT32	mOffset;						\/* Offset into module *\/$/;"	m	struct:_HP_VS_WR_MOD_CNF
+mOffset	hpStructDef.h	/^	UINT32	mOffset;						\/* Offset into module *\/$/;"	m	struct:_HP_VS_WR_MOD_REQ
+mOffset	hpStructDef.h	/^	UINT32	mOffset;$/;"	m	struct:_HP_VS_RD_MOD_CNF
+mOffset	hpStructDef.h	/^	UINT32	mOffset;$/;"	m	struct:_HP_VS_RD_MOD_REQ
+mOffset	hpStructDef.h	/^	UINT32 	mOffset;				$/;"	m	struct:_HP_MOD_OP_RD_REQ
+mOffset	hpStructDef.h	/^	UINT32 	mOffset;$/;"	m	struct:_HP_MOD_OP_RD_CONF
+mOffset	hpStructDef.h	/^	UINT32 	mOffset;$/;"	m	struct:_HP_MOD_OP_WR_CONF
+mOffset	hpStructDef.h	/^	UINT32 	mOffset;$/;"	m	struct:_HP_MOD_OP_WR_REQ
+mOverrideDef	hpStructDef.h	/^	UINT8 	mOverrideDef;$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mOverrideDef	hpStructDef.h	/^	UINT8 	mOverrideDef;$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mPIBLength	hpStructDef.h	/^	UINT16	mPIBLength;$/;"	m	struct:_HP_PIB_VER_HEAD
+mPIBMinorVersion	hpStructDef.h	/^	UINT8	mPIBMinorVersion;$/;"	m	struct:_HP_PIB_VER_HEAD
+mPIBRdCookie	hpStructDef.h	/^	UINT8 	mPIBRdCookie[4];$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mPIBRdCookie	hpStructDef.h	/^	UINT8 	mPIBRdCookie[4];$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mPLFreqSel	hpStructDef.h	/^	UINT8 	mPLFreqSel;$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mPLFreqSel	hpStructDef.h	/^	UINT8 	mPLFreqSel;$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mPhyAddrSel	hpStructDef.h	/^	UINT8 	mPhyAddrSel;$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mPhyAddrSel	hpStructDef.h	/^	UINT8 	mPhyAddrSel;$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mPhyAddrSelData	hpStructDef.h	/^	UINT8 	mPhyAddrSelData;$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mPhyAddrSelData	hpStructDef.h	/^	UINT8 	mPhyAddrSelData;$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mPortCfgs	hpStructDef.h	/^	UINT8 	mPortCfgs[96];$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mPortCfgs	hpStructDef.h	/^	UINT8 	mPortCfgs[96];$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mPortInfo	hpStructDef.h	/^	UINT8 	mPortInfo[160];$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mPortInfo	hpStructDef.h	/^	UINT8 	mPortInfo[160];$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mPreferNID	hpStructDef.h	/^	UINT8 	mPreferNID[7];$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mPreferNID	hpStructDef.h	/^	UINT8 	mPreferNID[7];$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mPriorityTTL	hpStructDef.h	/^	UINT8	mPriorityTTL[16];$/;"	m	struct:_HP_PIB_VER_HEAD
+mPriorityTTL	hpStructDef.h	/^	UINT8	mPriorityTTL[20];$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mPriorityTTL	hpStructDef.h	/^	UINT8	mPriorityTTL[20];$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mRSVD	hpStructDef.h	/^	UINT16	mRSVD;$/;"	m	struct:_HP_PIB_VER_HEAD
+mRSVD	hpStructDef.h	/^	UINT8	mRSVD[12];$/;"	m	struct:_HP_NVM_HEADER
+mRSVD1	hpStructDef.h	/^	UINT8	mRSVD1[2];$/;"	m	struct:_HP_PIB_VER_HEAD
+mRSVD8	hpStructDef.h	/^	UINT8	mRSVD8[2];$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mRSVD8	hpStructDef.h	/^	UINT8	mRSVD8[2];$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mReserved	hpStructDef.h	/^	UINT16	mReserved;$/;"	m	struct:_HP_PIB_VER_HEAD
+mReserved	hpStructDef.h	/^	UINT8	mReserved;$/;"	m	struct:_HP_VS_MOD_NVM_REQ
+mReserved	hpStructDef.h	/^	UINT8	mReserved;$/;"	m	struct:_HP_VS_RD_MOD_REQ
+mReserved	hpStructDef.h	/^	UINT8	mReserved;$/;"	m	struct:_HP_VS_WR_MOD_CNF
+mReserved	hpStructDef.h	/^	UINT8	mReserved;$/;"	m	struct:_HP_VS_WR_MOD_REQ
+mReserved	hpStructDef.h	/^	UINT8	mReserved[3];$/;"	m	struct:_HP_VS_RD_MOD_CNF
+mReserved	hpStructDef.h	/^	UINT8  mReserved[8];$/;"	m	struct:_HP_WRITE_AND_EXECUTE_APPLET_CNF
+mReserved	hpStructDef.h	/^	UINT8  mReserved[8];$/;"	m	struct:_HP_WRITE_AND_EXECUTE_APPLET_REQ
+mReserved	hpStructDef.h	/^	UINT8 mReserved;$/;"	m	struct:_HP_PTS_NVM_REQ
+mReserved1	hpStructDef.h	/^	UINT8	mReserved1;$/;"	m	struct:_HP_VS_RD_MOD_CNF
+mRrvd7	hpStructDef.h	/^	UINT8 	mRrvd7[0x378];$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mRrvd7	hpStructDef.h	/^	UINT8 	mRrvd7[0x378];$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mRsvd	hpStructDef.h	/^	UINT32	mRsvd;$/;"	m	struct:_HP_MOD_OP_WR_REQ
+mRsvd	hpStructDef.h	/^	UINT32 	mRsvd;			\/* Set to 0 *\/$/;"	m	struct:_HP_MOD_OP_REQ_HEADER
+mRsvd	hpStructDef.h	/^	UINT32 	mRsvd;$/;"	m	struct:_HP_MOD_OP_COMMIT_CONF
+mRsvd	hpStructDef.h	/^	UINT32 	mRsvd;$/;"	m	struct:_HP_MOD_OP_COMMIT_REQ
+mRsvd	hpStructDef.h	/^	UINT32 	mRsvd;$/;"	m	struct:_HP_MOD_OP_CONF_HEADER
+mRsvd	hpStructDef.h	/^	UINT32 	mRsvd;$/;"	m	struct:_HP_MOD_OP_RD_CONF
+mRsvd	hpStructDef.h	/^	UINT32 	mRsvd;$/;"	m	struct:_HP_MOD_OP_RD_REQ
+mRsvd	hpStructDef.h	/^	UINT32 	mRsvd;$/;"	m	struct:_HP_MOD_OP_START_WR_SESSION_REQ
+mRsvd	hpStructDef.h	/^	UINT32 	mRsvd;$/;"	m	struct:_HP_MOD_OP_WR_CONF
+mRsvd	hpStructDef.h	/^	UINT32 	mRsvd;$/;"	m	struct:_HP_MOD_OP_WR_SESSION_CONF
+mRsvd1	hpStructDef.h	/^	UINT8	mRsvd1[12];$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mRsvd1	hpStructDef.h	/^	UINT8	mRsvd1[12];$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mRsvd3	hpStructDef.h	/^	UINT8 	mRsvd3;$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mRsvd3	hpStructDef.h	/^	UINT8 	mRsvd3;$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mRsvd4	hpStructDef.h	/^	UINT8 	mRsvd4[11];$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mRsvd4	hpStructDef.h	/^	UINT8 	mRsvd4[11];$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mRsvd5	hpStructDef.h	/^	UINT8 	mRsvd5[108];$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mRsvd5	hpStructDef.h	/^	UINT8 	mRsvd5[108];$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mRsvd6	hpStructDef.h	/^	UINT8 	mRsvd6[180];$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mRsvd6	hpStructDef.h	/^	UINT8 	mRsvd6[180];$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mRsvd_mask	hpStructDef.h	/^	UINT8 mRsvd_mask;$/;"	m	struct:_EVENT_BLOCK_NEW
+mRsvds	hpStructDef.h	/^	UINT8 	mRsvds[20];		\/* must be set to 0 *\/$/;"	m	struct:_HP_MOD_OP_COMMIT_REQ
+mServerSessionID	hpStructDef.h	/^	UINT32 mServerSessionID;$/;"	m	struct:_HP_WRITE_AND_EXECUTE_APPLET_CNF
+mServerSessionID	hpStructDef.h	/^	UINT32 mServerSessionID;$/;"	m	struct:_HP_WRITE_AND_EXECUTE_APPLET_REQ
+mSessionID	hpStructDef.h	/^	UINT32 mSessionID;$/;"	m	struct:__anon20
+mSessionId	hpStructDef.h	/^	UINT32 	mSessionId;$/;"	m	struct:_HP_MOD_OP_COMMIT_CONF
+mSessionId	hpStructDef.h	/^	UINT32 	mSessionId;$/;"	m	struct:_HP_MOD_OP_COMMIT_REQ
+mSessionId	hpStructDef.h	/^	UINT32 	mSessionId;$/;"	m	struct:_HP_MOD_OP_START_WR_SESSION_REQ
+mSessionId	hpStructDef.h	/^	UINT32 	mSessionId;$/;"	m	struct:_HP_MOD_OP_WR_CONF
+mSessionId	hpStructDef.h	/^	UINT32 	mSessionId;$/;"	m	struct:_HP_MOD_OP_WR_REQ
+mSessionId	hpStructDef.h	/^	UINT32 	mSessionId;$/;"	m	struct:_HP_MOD_OP_WR_SESSION_CONF
+mStartAddr	hpStructDef.h	/^	UINT32 mStartAddr;$/;"	m	struct:_HP_WRITE_AND_EXECUTE_APPLET_CNF
+mStartAddr	hpStructDef.h	/^	UINT32 mStartAddr;$/;"	m	struct:_HP_WRITE_AND_EXECUTE_APPLET_REQ
+mStatus	hpStructDef.h	/^	UINT16 mStatus;$/;"	m	struct:_HP_MISTERY_CNF
+mStatus	hpStructDef.h	/^	UINT32 mStatus;$/;"	m	struct:_HP_WRITE_AND_EXECUTE_APPLET_CNF
+mStatus	hpStructDef.h	/^	UINT8	mStatus;$/;"	m	struct:_HP_VS_MOD_NVM_CNF
+mStatus	hpStructDef.h	/^	UINT8	mStatus;$/;"	m	struct:_HP_VS_RD_MOD_CNF
+mStatus	hpStructDef.h	/^	UINT8	mStatus;$/;"	m	struct:_HP_VS_WR_MOD_CNF
+mStatus	hpStructDef.h	/^	UINT8 mStatus;$/;"	m	struct:_HP_ENET_SETTINGS_CNF
+mStatus	hpStructDef.h	/^	UINT8 mStatus;$/;"	m	struct:_HP_HST_ACT_RSP
+mStatus	hpStructDef.h	/^	UINT8 mStatus;$/;"	m	struct:_HP_MDIO_COMMAND_CNF
+mStatus	hpStructDef.h	/^	UINT8 mStatus;$/;"	m	struct:_HP_PTS_NVM_CNF
+mTotalLength	hpStructDef.h	/^	UINT32 mTotalLength;$/;"	m	struct:_HP_WRITE_AND_EXECUTE_APPLET_CNF
+mTotalLength	hpStructDef.h	/^	UINT32 mTotalLength;$/;"	m	struct:_HP_WRITE_AND_EXECUTE_APPLET_REQ
+mUnicastPri	plcApi.h	/^	UINT8	mUnicastPri;$/;"	m	struct:_PLC_QOS_CFG
+mUnicastPriority	hpStructDef.h	/^	UINT8	mUnicastPriority;$/;"	m	struct:_HP_PIB_VER_HEAD
+mUnicastPriority	hpStructDef.h	/^	UINT8	mUnicastPriority;$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mUnicastPriority	hpStructDef.h	/^	UINT8	mUnicastPriority;$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mUnused	hpStructDef.h	/^	UINT8   mUnused[4192];$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mUnused	hpStructDef.h	/^	UINT8   mUnused[4192];$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mUnused_7500	hpStructDef.h	/^	UINT8	mUnused_7500[1684];$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mVLANPriorTOSPrecMatrix	hpStructDef.h	/^	UINT8	mVLANPriorTOSPrecMatrix[4];	$/;"	m	struct:_HP_PIB_VER_HEAD
+mVLANPriorTOSPrecMatrix	hpStructDef.h	/^	UINT8	mVLANPriorTOSPrecMatrix[4];$/;"	m	struct:_HP_PIB_VER_HEAD_7500
+mVLANPriorTOSPrecMatrix	hpStructDef.h	/^	UINT8	mVLANPriorTOSPrecMatrix[4];$/;"	m	struct:_HP_PIB_VER_HEAD_LC
+mVLANandTOS	plcApi.h	/^	UINT8	mVLANandTOS[16];$/;"	m	struct:_PLC_QOS_CFG
+mac	hpAVLib.h	/^	UINT8 mac[MAC_ADDR_LEN];$/;"	m	struct:_HP_RECOVER_PARA
+mac	hpAVLib.h	/^	UINT8 mac[MAC_ADDR_LEN];$/;"	m	struct:__anon2
+mac	hpStructDef.h	/^	UINT8 *mac;$/;"	m	struct:__anon11
+mac	hpStructDef.h	/^	UINT8 mac[6];$/;"	m	struct:_HP_PIB_LOCAL_DEV_CFG
+mac	hpStructDef.h	/^	UINT8 mac[6];$/;"	m	struct:_HP_PIB_LOCAL_DEV_CFG_LC
+mac	hpStructDef.h	/^	UINT8 mac[6];$/;"	m	struct:_HpAV_Common_Dev_Cfg
+mac	hpStructDef.h	/^	UINT8 mac[MAC_ADDR_LEN];$/;"	m	struct:__anon17
+mac	hpStructDef.h	/^	UINT8 mac[MAC_ADDR_LEN];$/;"	m	struct:__anon21
+mac	plcApi.h	/^	UINT8 mac[PLC_MAC_ADDR_LEN];$/;"	m	struct:_PLC_SET_MAC_INFO
+mac	plcApi.h	/^    UINT8           mac[PLC_MAC_ADDR_LEN];$/;"	m	struct:_PLC_DEV_BASE
+mac	plcApi.h	/^    UINT8   mac[PLC_MAC_ADDR_LEN];$/;"	m	struct:_PLC_RECOVER_PARA
+macAddr	hpAVLib.h	/^	UINT8	macAddr[PLC_MAC_ADDR_LEN];	$/;"	m	struct:_PLC_DEV_ENTRY
+maxBitRate	hpStructDef.h	/^	UINT8 maxBitRate;$/;"	m	struct:__anon24
+mduCfg	hpStructDef.h	/^	UINT8 mduCfg;$/;"	m	struct:_HP_PIB_LOCAL_DEV_CFG
+mduRole	hpStructDef.h	/^	UINT8 mduRole;$/;"	m	struct:_HP_PIB_LOCAL_DEV_CFG
+mmType	hpStructDef.h	/^	UINT16 mmType;$/;"	m	struct:_HP_BCM_MME_HEADER
+mmType	hpStructDef.h	/^	UINT16 mmType;$/;"	m	struct:_HP_PACKET_ID
+mmType	hpStructDef.h	/^	UINT16 mmType;$/;"	m	struct:_HP_QCA_MME_HEADER
+mmType	hpStructDef.h	/^	UINT16 mmType;$/;"	m	struct:_HP_QCA_MME_HEADER_V1
+mmType	hpStructDef.h	/^	UINT16 mmType;$/;"	m	struct:_hpav_pair_pkt
+mmeSubver	hpStructDef.h	/^	UINT8 mmeSubver;$/;"	m	struct:_HP_QCA_MME_HEADER_V1
+mmv	hpStructDef.h	/^	UINT8 mmv;$/;"	m	struct:_HP_BCM_MME_HEADER
+mmv	hpStructDef.h	/^	UINT8 mmv;$/;"	m	struct:_HP_PACKET_ID
+mmv	hpStructDef.h	/^	UINT8 mmv;$/;"	m	struct:_HP_QCA_MME_HEADER
+mmv	hpStructDef.h	/^	UINT8 mmv;$/;"	m	struct:_HP_QCA_MME_HEADER_V1
+mmv	hpStructDef.h	/^	UINT8 mmv;$/;"	m	struct:_hpav_pair_pkt
+mod	hpStructDef.h	/^	UINT8 *mod;$/;"	m	struct:__anon20
+modBufAddr	hpStructDef.h	/^	UINT8 *modBufAddr;$/;"	m	struct:_HP_QCA_RECOVER_OP_ST
+modFragmentLen	hpStructDef.h	/^	UINT32 modFragmentLen;				\/* every packet length of pib or nvm for requesting or writing *\/$/;"	m	struct:__anon20
+modFragmentLen	hpStructDef.h	/^	UINT32 modFragmentLen;$/;"	m	struct:_HP_QCA_RECOVER_OP_ST
+modHeader	hpStructDef.h	/^	HP_NVM_HEADER_LC modHeader;$/;"	m	struct:_HP_QCA_RECOVER_OP_ST
+modLen	hpStructDef.h	/^	UINT32 modLen;$/;"	m	struct:__anon20
+modLength	hpStructDef.h	/^	UINT32 modLength;$/;"	m	struct:_HP_QCA_RECOVER_OP_ST
+modMemAddr	hpStructDef.h	/^	UINT32 modMemAddr;$/;"	m	struct:_HP_QCA_RECOVER_OP_ST
+modOffset	hpStructDef.h	/^	UINT32 modOffset;$/;"	m	struct:_HP_QCA_RECOVER_OP_ST
+modOffset	hpStructDef.h	/^	UINT32 modOffset;$/;"	m	struct:__anon20
+modType	hpStructDef.h	/^	UINT8 modType;$/;"	m	struct:_HP_QCA_RECOVER_OP_ST
+modType	hpStructDef.h	/^	UINT8 modType;$/;"	m	struct:__anon20
+mode	hpStructDef.h	/^	UINT8 mode;$/;"	m	struct:_HP_QCA_MDIO_OP_ST
+modified	hpStructDef.h	/^	UINT8 modified;$/;"	m	struct:__anon23
+ms_to	ifopr.h	/^	int     ms_to;		\/* poll timeout in ms *\/$/;"	m	struct:IFOPR_HANDLE
+msgId	hpStructDef.h	/^	UINT8 msgId;$/;"	m	struct:_HP_BCM_MME_HEADER
+next	ifopr.h	/^	struct IFOPR_IF_LIST *	next;$/;"	m	struct:IFOPR_IF_LIST	typeref:struct:IFOPR_IF_LIST::IFOPR_IF_LIST
+nid	hpStructDef.h	/^	UINT8 nid[HP_NID_LEN];$/;"	m	struct:__anon28
+nmk	hpAVLib.h	/^	UINT8 			nmk[HP_NMK_LEN];$/;"	m	struct:_HP_SET_ALL_NMK_PARA
+nmk	hpAVLib.h	/^	UINT8 nmk[HP_NMK_LEN];$/;"	m	struct:_HP_RECOVER_PARA
+nmk	hpAVLib.h	/^	UINT8 nmk[HP_NMK_LEN];$/;"	m	struct:__anon3
+nmk	hpStructDef.h	/^	UINT8	nmk[HP_NMK_LEN];$/;"	m	struct:__anon30
+nmk	hpStructDef.h	/^	UINT8 nmk[16];$/;"	m	struct:_HP_PIB_LOCAL_DEV_CFG
+nmk	hpStructDef.h	/^	UINT8 nmk[16];$/;"	m	struct:_HP_PIB_LOCAL_DEV_CFG_LC
+nmk	hpStructDef.h	/^	UINT8 nmk[16];$/;"	m	struct:_HpAV_Common_Dev_Cfg
+nmk	hpStructDef.h	/^	UINT8 nmk[HP_NMK_LEN];$/;"	m	struct:__anon27
+nmk	plcApi.h	/^	UINT8 	nmk[PLC_NMK_LEN];$/;"	m	struct:_PLC_DEV_INFO
+nmk	plcApi.h	/^    UINT8   nmk[PLC_NMK_LEN];$/;"	m	struct:_PLC_RECOVER_PARA
+ntw	plcApi.h	/^	UINT8 ntw[PLC_MAX_NTW_NAME_LEN+1];$/;"	m	struct:_PLC_SET_MAC_INFO
+ntwId	hpStructDef.h	/^	UINT8		ntwId[7];$/;"	m	struct:__anon29
+ntwId	hpStructDef.h	/^        UINT8           ntwId[7];$/;"	m	struct:_HP_NW_INFO_CNF_V1
+ntwName	hpAVLib.h	/^	UINT8 				ntwName[PLC_MAX_NTW_NAME_LEN + 1];$/;"	m	struct:_PLC_DEV_CFG
+ntwName	hpAVLib.h	/^	UINT8 ntwName[HP_NTW_NAME_MAX_LEN];$/;"	m	struct:_HP_RESTORE_CFG_PARA
+num	hpStructDef.h	/^	UINT16 num;$/;"	m	struct:__anon25
+numAVLNs	hpStructDef.h	/^	UINT8		numAVLNs;$/;"	m	struct:__anon29
+numAVLNs	hpStructDef.h	/^        UINT8           numAVLNs;$/;"	m	struct:_HP_NW_INFO_CNF_V1
+numOfRules	hpStructDef.h	/^	UINT8 numOfRules;$/;"	m	struct:__anon19
+numStas	hpStructDef.h	/^	UINT8 numStas;$/;"	m	struct:__anon22
+numStations	hpStructDef.h	/^	UINT8		numStations;$/;"	m	struct:__anon29
+numStations	hpStructDef.h	/^        UINT8           numStations;$/;"	m	struct:_HP_NW_INFO_CNF_V1
+num_ucodes	hpStructDef.h	/^	UINT8 num_ucodes;$/;"	m	struct:__anon24
+nvm	hpAVLib.h	/^	UINT8 *nvm;$/;"	m	struct:_HP_RECOVER_PARA
+nvm	hpStructDef.h	/^	UINT8 *nvm;$/;"	m	struct:_HP_QCA_RECOVER_OP_ST
+nvm	hpStructDef.h	/^	UINT8 *nvm;$/;"	m	struct:__anon20
+nvm	plcApi.h	/^    UINT8   *nvm;$/;"	m	struct:_PLC_RECOVER_PARA
+nvm	plcApi.h	/^    UINT8   *nvm;$/;"	m	struct:_PLC_UPGRADE_PARA
+nvmLen	hpAVLib.h	/^	UINT32 nvmLen;$/;"	m	struct:_HP_RECOVER_PARA
+nvmLen	hpStructDef.h	/^	UINT32 nvmLen;$/;"	m	struct:_HP_QCA_RECOVER_OP_ST
+nvmLen	hpStructDef.h	/^	UINT32 nvmLen;$/;"	m	struct:__anon20
+nvmLen	plcApi.h	/^    UINT32  nvmLen;$/;"	m	struct:_PLC_RECOVER_PARA
+nvmLen	plcApi.h	/^    UINT32  nvmLen;$/;"	m	struct:_PLC_UPGRADE_PARA
+nvramId	hpStructDef.h	/^	UINT8 nvramId;$/;"	m	struct:__anon19
+offset	hpStructDef.h	/^	UINT32 offset;$/;"	m	struct:__anon26
+opcode	hpStructDef.h	/^	UINT16 opcode;$/;"	m	struct:__anon13
+oper	hpStructDef.h	/^	UINT8 oper;$/;"	m	struct:_HP_MDIO_COMMAND_REQ
+oui	hpStructDef.h	/^	UINT8 oui[3];$/;"	m	struct:_HP_BCM_MME_HEADER
+oui	hpStructDef.h	/^	UINT8 oui[3];$/;"	m	struct:_HP_QCA_MME_HEADER
+oui	hpStructDef.h	/^	UINT8 oui[3];$/;"	m	struct:_HP_QCA_MME_HEADER_V1
+pDevCfg	hpAVLib.h	/^	PLC_DEV_CFG * pDevCfg;$/;"	m	struct:_PLC_CFG_DATA
+pModHeader	hpStructDef.h	/^	HP_NVM_HEADER_LC *pModHeader[HP_MODULE_NUM];$/;"	m	struct:_HP_QCA_RECOVER_OP_ST
+pQosCfg	hpAVLib.h	/^	PLC_QOS_CFG * pQosCfg;$/;"	m	struct:_PLC_CFG_DATA
+pairAction	hpStructDef.h	/^	UINT8 pairAction;$/;"	m	struct:_hpav_pair_pkt
+pairConfirm	hpAVLib.h	/^    BOOL (*pairConfirm)(PLC_DEV_BASE *dev, UINT8 timeout);$/;"	m	struct:__anon4
+paramConfigBuiltinVersion	hpStructDef.h	/^	UINT32 paramConfigBuiltinVersion;$/;"	m	struct:__anon24
+paramConfigNvmVersion	hpStructDef.h	/^	UINT32 paramConfigNvmVersion;$/;"	m	struct:__anon24
+paramId	hpStructDef.h	/^	UINT16 paramId;$/;"	m	struct:__anon25
+parammeters	hpStructDef.h	/^	UINT8 parammeters[10];$/;"	m	struct:__anon15
+peks	hpStructDef.h	/^	UINT8	peks;$/;"	m	struct:__anon30
+phy	hpStructDef.h	/^	UINT8 phy;$/;"	m	struct:_HP_QCA_MDIO_OP_ST
+phyAddr	hpStructDef.h	/^	UINT8 phyAddr;$/;"	m	struct:_HP_MDIO_COMMAND_CNF
+phyAddr	hpStructDef.h	/^	UINT8 phyAddr;$/;"	m	struct:_HP_MDIO_COMMAND_REQ
+pib	hpAVLib.h	/^	UINT8 *pib;$/;"	m	struct:_HP_RECOVER_PARA
+pib	hpStructDef.h	/^	UINT8 *pib;$/;"	m	struct:_HP_QCA_RECOVER_OP_ST
+pib	hpStructDef.h	/^	UINT8 *pib;$/;"	m	struct:__anon20
+pib	plcApi.h	/^    UINT8   *pib;$/;"	m	struct:_PLC_RECOVER_PARA
+pib	plcApi.h	/^    UINT8   *pib;$/;"	m	struct:_PLC_UPGRADE_PARA
+pibLen	hpAVLib.h	/^	UINT32 pibLen;$/;"	m	struct:_HP_RECOVER_PARA
+pibLen	hpStructDef.h	/^	UINT32 pibLen;$/;"	m	struct:_HP_QCA_RECOVER_OP_ST
+pibLen	hpStructDef.h	/^	UINT32 pibLen;$/;"	m	struct:__anon20
+pibLen	plcApi.h	/^    UINT32  pibLen;$/;"	m	struct:_PLC_RECOVER_PARA
+pibLen	plcApi.h	/^    UINT32  pibLen;$/;"	m	struct:_PLC_UPGRADE_PARA
+pktId	hpAVLib.h	/^	HP_PACKET_ID_ST pktId;$/;"	m	struct:__anon1
+plcDevCfg	hpAVLib.h	/^	PLC_DEV_CFG	plcDevCfg;$/;"	m	struct:_HP_RESET_ALL_PARA
+plcDevCfg	hpAVLib.h	/^	PLC_DEV_CFG	plcDevCfg;$/;"	m	struct:_HP_SET_ALL_NMK_PARA
+pushButtonStart	hpAVLib.h	/^    BOOL (*pushButtonStart)(PLC_DEV_BASE *dev);$/;"	m	struct:__anon4
+pushButtonStop	hpAVLib.h	/^	BOOL (*pushButtonStop)(PLC_DEV_BASE *dev);$/;"	m	struct:__anon4
+qosCfg	hpAVLib.h	/^	PLC_QOS_CFG qosCfg;$/;"	m	struct:_HP_RESTORE_CFG_PARA
+rebootDev	hpAVLib.h	/^	BOOL (*rebootDev)(PLC_DEV_BASE *dev);$/;"	m	struct:__anon4
+recover	hpAVLib.h	/^	BOOL (*recover)(PLC_DEV_BASE *dev, HP_RECOVER_PARA *recPara);$/;"	m	struct:__anon4
+reg	hpStructDef.h	/^	UINT8 reg;$/;"	m	struct:_HP_QCA_MDIO_OP_ST
+regAddr	hpStructDef.h	/^	UINT8 regAddr;$/;"	m	struct:_HP_MDIO_COMMAND_CNF
+regAddr	hpStructDef.h	/^	UINT8 regAddr;$/;"	m	struct:_HP_MDIO_COMMAND_REQ
+remoteDev	hpAVLib.h	/^	HP_RMT_DEV	remoteDev[HP_MAX_RMT_STA_NUM];$/;"	m	struct:_HP_RMT_DEV_INFO
+remoteDevNum	hpAVLib.h	/^	UINT8		remoteDevNum;$/;"	m	struct:_HP_RMT_DEV_INFO
+reserved	hpStructDef.h	/^	UINT8	reserved[5];$/;"	m	struct:_HP_SW_VER_CNF
+reserved	hpStructDef.h	/^	UINT8 reserved;$/;"	m	struct:__anon19
+reserved	hpStructDef.h	/^	UINT8 reserved[3];$/;"	m	struct:_HP_QCA_MME_HEADER_V1
+reserved1	hpStructDef.h	/^        UINT8           reserved1;$/;"	m	struct:_HP_NW_INFO_CNF_V1
+reserved1	hpStructDef.h	/^        UINT8   reserved1[3];$/;"	m	struct:_HP_STATION_V1
+reserved2	hpStructDef.h	/^	UINT8 reserved2[3];$/;"	m	struct:__anon19
+reserved2	hpStructDef.h	/^        UINT16          reserved2;$/;"	m	struct:_HP_NW_INFO_CNF_V1
+reserved2	hpStructDef.h	/^        UINT8   reserved2;$/;"	m	struct:_HP_STATION_V1
+reserved3	hpStructDef.h	/^        UINT16  reserved3;$/;"	m	struct:_HP_STATION_V1
+reserved3	hpStructDef.h	/^        UINT32          reserved3;$/;"	m	struct:_HP_NW_INFO_CNF_V1
+reserved4	hpStructDef.h	/^        UINT8           reserved4[3];$/;"	m	struct:_HP_NW_INFO_CNF_V1
+reserved5	hpStructDef.h	/^        UINT8           reserved5[5];$/;"	m	struct:_HP_NW_INFO_CNF_V1
+resetDevFacDef	hpAVLib.h	/^    BOOL (*resetDevFacDef)(PLC_DEV_BASE *dev, BOOL isWaitReboot);$/;"	m	struct:__anon4
+restore	hpAVLib.h	/^    BOOL (*restore)(PLC_DEV_BASE *dev, HP_RESTORE_CFG_PARA *restorePara);$/;"	m	struct:__anon4
+resvd	hpStructDef.h	/^	UINT8 resvd[3];$/;"	m	struct:__anon14
+resvd2	hpStructDef.h	/^	UINT8 resvd2[7];$/;"	m	struct:__anon14
+rmtDev	plcApi.h	/^    PLC_RMT_DEV     rmtDev[PLC_MAX_DEV_NUM];$/;"	m	struct:_PLC_RMT_DEV_INFO
+rmtDevNum	plcApi.h	/^    UINT8           rmtDevNum;$/;"	m	struct:_PLC_RMT_DEV_INFO
+role	hpStructDef.h	/^	UINT8		role;$/;"	m	struct:__anon29
+role	hpStructDef.h	/^        UINT8           role;$/;"	m	struct:_HP_NW_INFO_CNF_V1
+romVersion	hpStructDef.h	/^	UINT32 romVersion;$/;"	m	struct:__anon24
+rsvd1	hpStructDef.h	/^	UINT8 rsvd1[2];$/;"	m	struct:_HP_PIB_LOCAL_DEV_CFG
+rsvd1	hpStructDef.h	/^	UINT8 rsvd1[2];$/;"	m	struct:_HP_PIB_LOCAL_DEV_CFG_LC
+rsvd2	hpStructDef.h	/^	UINT8 rsvd2[11];$/;"	m	struct:_HP_PIB_LOCAL_DEV_CFG
+rsvd3	hpStructDef.h	/^	UINT8 rsvd3[10];$/;"	m	struct:_HP_PIB_LOCAL_DEV_CFG
+ruleId	hpStructDef.h	/^	UINT8 ruleId;$/;"	m	struct:__anon19
+sNtwId	hpStructDef.h	/^	UINT8		sNtwId;$/;"	m	struct:__anon29
+sNtwId	hpStructDef.h	/^        UINT8           sNtwId;$/;"	m	struct:_HP_NW_INFO_CNF_V1
+selecCoupling	hpStructDef.h	/^        UINT8   selecCoupling;$/;"	m	struct:_HP_STATION_V1
+setKeyFlag	hpAVLib.h	/^	UINT8 setKeyFlag;$/;"	m	struct:__anon3
+setLed	hpAVLib.h	/^    BOOL (*setLed)(PLC_DEV_BASE *dev, BOOL isLedOn, BOOL isWaitReboot);$/;"	m	struct:__anon4
+setMac	hpAVLib.h	/^	BOOL (*setMac)(PLC_DEV_BASE *dev, PLC_PARAM *param, PLC_SET_MAC_INFO *info);$/;"	m	struct:__anon4
+setParam	hpAVLib.h	/^	BOOL (*setParam)(PLC_DEV_BASE *dev, UINT8 *param, UINT32 paramSize);$/;"	m	struct:__anon4
+setPowerSave	hpAVLib.h	/^	BOOL (*setPowerSave)(PLC_DEV_BASE *dev, BOOL isPowerSave, UINT32 timeOut);$/;"	m	struct:__anon4
+setQosData	hpAVLib.h	/^    BOOL (*setQosData)(PLC_DEV_BASE *dev, PLC_QOS_CFG *qosData, BOOL isWaitReboot);$/;"	m	struct:__anon4
+setRmtDevNmkWithoutDak	hpAVLib.h	/^	BOOL (*setRmtDevNmkWithoutDak)(PLC_DEV_BASE *dev, UINT8 *nmk, BOOL isWaitReboot);$/;"	m	struct:__anon4
+setTransMode	hpAVLib.h	/^	BOOL (*setTransMode)(PLC_DEV_BASE *dev, BOOL isMIMO);$/;"	m	struct:__anon4
+sha256	SHA256.h	/^typedef struct sha256 $/;"	s
+size	hpAVLib.h	/^	INT32 size;$/;"	m	struct:__anon1
+size	hpStructDef.h	/^	UINT32 size;$/;"	m	struct:__anon16
+size	hpStructDef.h	/^	UINT32 size;$/;"	m	struct:__anon26
+size	hpStructDef.h	/^	UINT8 size;$/;"	m	struct:__anon25
+sleep	hpAVLib.h	184;"	d
+sockfd	ifopr.h	/^	int 	sockfd[2];$/;"	m	struct:IFOPR_HANDLE
+speed	plcApi.h	/^	UINT8 speed;  \/* 0:10M, 1:100M, 2:1000M, 3:unknown  *\/$/;"	m	struct:_PLC_ETH_INFO
+srcMac	hpStructDef.h	/^	UINT8 srcMac[MAC_ADDR_LEN];$/;"	m	struct:_HP_BCM_MME_HEADER
+srcMac	hpStructDef.h	/^	UINT8 srcMac[MAC_ADDR_LEN];$/;"	m	struct:_HP_PACKET_ID
+srcMac	hpStructDef.h	/^	UINT8 srcMac[MAC_ADDR_LEN];$/;"	m	struct:_HP_QCA_MME_HEADER
+srcMac	hpStructDef.h	/^	UINT8 srcMac[MAC_ADDR_LEN];$/;"	m	struct:_HP_QCA_MME_HEADER_V1
+srcMac	hpStructDef.h	/^	UINT8 srcMac[MAC_ADDR_LEN];$/;"	m	struct:_hpav_pair_pkt
+staDak	hpAVLib.h	/^	UINT8 staDak[HP_DAK_LEN];$/;"	m	struct:__anon3
+staDak	hpStructDef.h	/^	UINT8	staDak[HP_DAK_LEN];$/;"	m	struct:__anon30
+staMac	hpAVLib.h	/^	UINT8 staMac[MAC_ADDR_LEN];$/;"	m	struct:__anon3
+staMac	hpStructDef.h	/^	UINT8	staMac[MAC_ADDR_LEN];$/;"	m	struct:__anon30
+state	SHA256.h	/^	UINT32 state [8];$/;"	m	struct:sha256
+station	hpStructDef.h	/^	HP_STATION	station[32];$/;"	m	struct:__anon29
+station	hpStructDef.h	/^        HP_STATION_V1   station[32];$/;"	m	struct:_HP_NW_INFO_CNF_V1
+stationMac	hpStructDef.h	/^	UINT8	stationMac[6];$/;"	m	struct:_HP_STATION
+stationMac	hpStructDef.h	/^        UINT8   stationMac[6];$/;"	m	struct:_HP_STATION_V1
+stations	hpStructDef.h	/^	HP_RMT_STA_ST stations[HP_MAX_RMT_STA_NUM];	$/;"	m	struct:__anon22
+status	hpStructDef.h	/^	UINT8	status;$/;"	m	struct:_HP_SET_KEY_CNF
+status	hpStructDef.h	/^	UINT8	status;$/;"	m	struct:_HP_SW_VER_CNF
+status	hpStructDef.h	/^	UINT8 	status;$/;"	m	struct:__anon31
+status	hpStructDef.h	/^	UINT8 	status;$/;"	m	struct:__anon32
+subType	hpStructDef.h	/^	UINT8 subType;$/;"	m	struct:__anon20
+swVer	hpStructDef.h	/^	char swVer[HP_MAX_SW_VER_LEN];$/;"	m	struct:__anon12
+swVer	plcApi.h	/^	UINT8   swVer[PLC_SW_VERSION_LEN];$/;"	m	struct:_PLC_DEV_INFO
+tei	hpStructDef.h	/^	UINT8		tei;$/;"	m	struct:__anon29
+tei	hpStructDef.h	/^	UINT8	tei;$/;"	m	struct:_HP_STATION
+tei	hpStructDef.h	/^        UINT8           tei;$/;"	m	struct:_HP_NW_INFO_CNF_V1
+tei	hpStructDef.h	/^        UINT8   tei;$/;"	m	struct:_HP_STATION_V1
+thtonl	hpAVCommon.h	45;"	d
+thtonl	hpAVCommon.h	58;"	d
+thtons	hpAVCommon.h	46;"	d
+thtons	hpAVCommon.h	59;"	d
+tntohl	hpAVCommon.h	43;"	d
+tntohl	hpAVCommon.h	56;"	d
+tntohs	hpAVCommon.h	44;"	d
+tntohs	hpAVCommon.h	57;"	d
+type	hpStructDef.h	/^	HP_UPG_TYPE_T type;$/;"	m	struct:__anon16
+type	hpStructDef.h	/^	UINT8 type;$/;"	m	struct:__anon15
+type	hpStructDef.h	/^	UINT8 type;$/;"	m	struct:__anon17
+type	plcApi.h	/^    PLC_DEV_TYPE    type;$/;"	m	struct:_PLC_DEV_BASE
+ucodes	hpStructDef.h	/^	APSTA_INFO_UCODE_ST *ucodes;$/;"	m	struct:__anon24
+upgrade	hpAVLib.h	/^    BOOL (*upgrade)(PLC_DEV_BASE *dev, HP_UPGRADE_PARA *upgData);$/;"	m	struct:__anon4
+uptime	hpStructDef.h	/^	UINT32 uptime;$/;"	m	struct:__anon24
+valUnused	hpStructDef.h	/^	UINT8 valUnused[12];$/;"	m	struct:__anon19
+value	hpStructDef.h	/^	UINT8 value[50];$/;"	m	struct:__anon26
+value	hpStructDef.h	/^	UINT8 value[MAX_BCM_PARAM_LEN];$/;"	m	struct:__anon25
+values	hpStructDef.h	/^	UINT8 values[4];$/;"	m	struct:__anon19
+verStr	hpStructDef.h	/^	char	verStr[128];$/;"	m	struct:_HP_SW_VER_CNF
+version	hpStructDef.h	/^	UINT32 version;$/;"	m	struct:__anon23
+version	hpStructDef.h	/^	UINT8 version;$/;"	m	struct:__anon13
+withoutReboot	hpStructDef.h	/^	BOOL  withoutReboot;$/;"	m	struct:__anon20
